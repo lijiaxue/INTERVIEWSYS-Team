@@ -34,6 +34,7 @@ public class RedisCacheConfig extends CachingConfigurerSupport {
     private long maxWaitMillis;
 
 
+
     @Bean
     public JedisPool redisPoolFactory() {
         Logger.getLogger(getClass()).info("JedisPool注入成功！！");

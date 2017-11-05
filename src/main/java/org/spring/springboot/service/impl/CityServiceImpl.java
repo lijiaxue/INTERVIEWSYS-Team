@@ -2,18 +2,15 @@ package org.spring.springboot.service.impl;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.spring.springboot.config.redis.RedisUtil;
 import org.spring.springboot.dao.cluster.CityDao;
 import org.spring.springboot.domain.City;
 import org.spring.springboot.service.CityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.stereotype.Service;
 import redis.clients.jedis.Jedis;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.TimeUnit;
+import redis.clients.jedis.JedisPool;
 
 /**
  * 城市业务逻辑实现类
@@ -30,8 +27,9 @@ public class CityServiceImpl implements CityService {
 
     @Autowired
     private RedisTemplate redisTemplate;
-
     @Autowired
+    private JedisPool jedisPool;
+
     private Jedis jedis;
 
     /**
@@ -42,24 +40,30 @@ public class CityServiceImpl implements CityService {
     public City findCityById(Long id) {
         // 从缓存中获取城市信息
         String key = "city_" + id;
-        ValueOperations<String, City> operations = redisTemplate.opsForValue();
+        byte[] byteArray = null;
+        byte[] City =null;
+        jedis =jedisPool.getResource();
         // 缓存存在
         boolean hasKey = jedis.exists(key);
         if (hasKey) {
-            City city = operations.get(key);
-
-            LOGGER.info("CityServiceImpl.findCityById() : 从缓存中获取了城市 >> " + city.toString());
-            return city;
+           City =  byteArray = jedis.get(key.getBytes());
+          // LOGGER.info("CityServiceImpl.findCityById() : 从缓存中获取了城市 >> " + city.toString());
+            return (City) RedisUtil.deSerialize(City);
         }
 
         // 从 DB 中获取城市信息
         City city = cityDao.findById(id);
-
+        try{
+            byteArray = RedisUtil.serialize(city);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
         // 插入缓存（设置10秒失效时间）
-        operations.set(key, city, 10, TimeUnit .SECONDS);
+        jedis.set(key.getBytes(), byteArray);
+        City =  byteArray = jedis.get(key.getBytes());
         LOGGER.info("CityServiceImpl.findCityById() : 城市插入缓存 >> " + city.toString());
 
-        return city;
+        return (City) RedisUtil.deSerialize(City);
     }
 
     @Override
