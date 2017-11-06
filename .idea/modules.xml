@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/XQcms.iml" filepath="$PROJECT_DIR$/XQcms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/INTERVIEWSYS.iml" filepath="$PROJECT_DIR$/INTERVIEWSYS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/INTERVIEWSYS-Core/INTERVIEWSYS-Core.iml" filepath="$PROJECT_DIR$/INTERVIEWSYS-Core/INTERVIEWSYS-Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/INTERVIEWSYS-Util/INTERVIEWSYS-Util.iml" filepath="$PROJECT_DIR$/INTERVIEWSYS-Util/INTERVIEWSYS-Util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/INTERVIEWSYS-Web/INTERVIEWSYS-Web.iml" filepath="$PROJECT_DIR$/INTERVIEWSYS-Web/INTERVIEWSYS-Web.iml" />
     </modules>
   </component>
 </project>

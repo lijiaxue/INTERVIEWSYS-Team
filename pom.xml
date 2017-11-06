@@ -3,10 +3,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>XQcms</groupId>
-    <artifactId>XQcms</artifactId>
+    <groupId>INTERVIEWSYS</groupId>
+    <artifactId>INTERVIEWSYS</artifactId>
+    <packaging>pom</packaging>
     <version>0.0.1</version>
-    <name>test</name>
+    <modules>
+        <module>INTERVIEWSYS-Util</module>
+        <module>INTERVIEWSYS-Core</module>
+        <module>INTERVIEWSYS-Web</module>
+    </modules>
+
+    <name>INTERVIEWSYS</name>
 
     <!-- Spring Boot 启动父依赖 -->
     <parent>
@@ -76,4 +83,7 @@
         </dependency>
 
     </dependencies>
+    <build>
+        <finalName>INTERVIEWSYS</finalName>
+    </build>
 </project>
