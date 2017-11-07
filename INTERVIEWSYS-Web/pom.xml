@@ -3,6 +3,7 @@
     <parent>
         <artifactId>INTERVIEWSYS</artifactId>
         <groupId>INTERVIEWSYS</groupId>
+        <relativePath>../</relativePath>
         <version>0.0.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -10,14 +11,20 @@
     <packaging>war</packaging>
     <name>INTERVIEWSYS-Web Maven Webapp</name>
     <url>http://maven.apache.org</url>
+    <build>
+        <finalName>INTERVIEWSYS-Web</finalName>
+    </build>
     <dependencies>
         <dependency>
             <groupId>INTERVIEWSYS</groupId>
             <artifactId>INTERVIEWSYS-Util</artifactId>
             <version>0.0.1</version>
         </dependency>
+        <dependency>
+            <groupId>com.INTERVIEWSYS</groupId>
+            <artifactId>INTERVIEWSYS-Util</artifactId>
+            <version>0.0.1</version>
+        </dependency>
     </dependencies>
-    <build>
-        <finalName>INTERVIEWSYS-Web</finalName>
-    </build>
+
 </project>
