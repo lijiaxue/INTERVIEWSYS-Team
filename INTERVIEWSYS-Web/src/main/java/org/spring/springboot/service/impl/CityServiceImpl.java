@@ -12,6 +12,8 @@ import org.springframework.stereotype.Service;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 
+import java.util.List;
+
 /**
  * 城市业务逻辑实现类
  * <p>
@@ -106,6 +108,11 @@ public class CityServiceImpl implements CityService {
             LOGGER.info("CityServiceImpl.deleteCity() : 从缓存中删除城市 ID >> " + id);
         }
         return ret;
+    }
+
+    @Override
+    public List<City> findAllCity() {
+        return cityDao.findAllCity();
     }
 
 }

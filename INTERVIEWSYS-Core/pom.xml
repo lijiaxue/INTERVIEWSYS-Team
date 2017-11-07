@@ -11,11 +11,6 @@
     <packaging>jar</packaging>
     <artifactId>INTERVIEWSYS-Core</artifactId>
     <dependencies>
-        <dependency>
-            <groupId>INTERVIEWSYS</groupId>
-            <artifactId>INTERVIEWSYS-Util</artifactId>
-            <version>0.0.1</version>
-        </dependency>
     </dependencies>
 
 
