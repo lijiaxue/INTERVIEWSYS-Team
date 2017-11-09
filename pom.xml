@@ -28,6 +28,9 @@
         <mysql-connector>5.1.39</mysql-connector>
         <druid>1.0.18</druid>
         <spring-boot-starter-redis-version>1.3.2.RELEASE</spring-boot-starter-redis-version>
+        <spring-boot-freemarker-version>1.5.8.RELEASE</spring-boot-freemarker-version>
+        <mybatis-plus>2.1.1</mybatis-plus>
+        <mybatis-velocity-version>1.7</mybatis-velocity-version>
     </properties>
 
     <dependencies>
@@ -69,6 +72,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-freemarker</artifactId>
+            <version>${spring-boot-freemarker-version}</version>
         </dependency>
         <!-- Spring Boot Reids 依赖 -->
         <dependency>
@@ -76,7 +80,18 @@
             <artifactId>spring-boot-starter-redis</artifactId>
             <version>${spring-boot-starter-redis-version}</version>
         </dependency>
-
+        <!-- MP 核心库 -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus</artifactId>
+            <version>${mybatis-plus}</version>
+        </dependency>
+        <!-- Mybatis代码生成器 -->
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity</artifactId>
+            <version>${mybatis-velocity-version}</version>
+        </dependency>
 
 
     </dependencies>

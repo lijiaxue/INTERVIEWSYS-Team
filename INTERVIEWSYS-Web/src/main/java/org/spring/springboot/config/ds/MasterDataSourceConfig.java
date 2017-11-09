@@ -1,6 +1,7 @@
 package org.spring.springboot.config.ds;
 
 import com.alibaba.druid.pool.DruidDataSource;
+import com.baomidou.mybatisplus.spring.MybatisSqlSessionFactoryBean;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.annotation.MapperScan;
@@ -54,12 +55,12 @@ public class MasterDataSourceConfig {
 
     @Bean(name = "masterSqlSessionFactory")
     @Primary
-    public SqlSessionFactory masterSqlSessionFactory(@Qualifier("masterDataSource") DataSource masterDataSource)
+    public MybatisSqlSessionFactoryBean masterSqlSessionFactory(@Qualifier("masterDataSource") DataSource masterDataSource)
             throws Exception {
-        final SqlSessionFactoryBean sessionFactory = new SqlSessionFactoryBean();
+        final MybatisSqlSessionFactoryBean sessionFactory = new MybatisSqlSessionFactoryBean();
         sessionFactory.setDataSource(masterDataSource);
         sessionFactory.setMapperLocations(new PathMatchingResourcePatternResolver()
                 .getResources(MasterDataSourceConfig.MAPPER_LOCATION));
-        return sessionFactory.getObject();
+        return sessionFactory;
     }
 }

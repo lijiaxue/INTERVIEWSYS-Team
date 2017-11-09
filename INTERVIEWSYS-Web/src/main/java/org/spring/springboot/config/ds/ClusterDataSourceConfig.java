@@ -3,6 +3,7 @@ package org.spring.springboot.config.ds;
 import com.alibaba.druid.pool.DruidDataSource;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
+import com.baomidou.mybatisplus.spring.MybatisSqlSessionFactoryBean;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
@@ -50,12 +51,12 @@ public class ClusterDataSourceConfig {
     }
 
     @Bean(name = "clusterSqlSessionFactory")
-    public SqlSessionFactory clusterSqlSessionFactory(@Qualifier("clusterDataSource") DataSource clusterDataSource)
+    public MybatisSqlSessionFactoryBean clusterSqlSessionFactory(@Qualifier("clusterDataSource") DataSource clusterDataSource)
             throws Exception {
-        final SqlSessionFactoryBean sessionFactory = new SqlSessionFactoryBean();
+        final MybatisSqlSessionFactoryBean sessionFactory = new MybatisSqlSessionFactoryBean();
         sessionFactory.setDataSource(clusterDataSource);
         sessionFactory.setMapperLocations(new PathMatchingResourcePatternResolver()
                 .getResources(ClusterDataSourceConfig.MAPPER_LOCATION));
-        return sessionFactory.getObject();
+        return sessionFactory;
     }
 }
