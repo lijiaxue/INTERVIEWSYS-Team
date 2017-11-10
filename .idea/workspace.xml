@@ -2,27 +2,387 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="155c7dde-a994-42d6-89ac-bdfc4a48d124" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_2_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/img/calendar-200-300.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/img/check_icon-100-100.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/img/checkbox.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/img/hide_list.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/img/icon-806-614.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/img/left-slib.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/img/load-16-16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/img/main-nav-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/img/main-nav-bg1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/img/menu-500-188.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/img/menu.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/img/nav.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/img/nav_selected.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/img/radio_icon-64-40.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/img/resource.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/img/separator-2-340.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/img/sprite-469-300.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/img/tab-140-120.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/img/table-191-450.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/img/tree.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/img/tree_icon-80-100.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/img/white_sprite-469-300.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/css/iconfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/css/iconfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/css/iconfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/fonts/fontawesome-webfont93e3.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/validator-0.7.3/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/validator-0.7.3/images/validator_default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/validator-0.7.3/images/validator_simple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/Hui-iconfont/1.0.1/iconfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/Hui-iconfont/1.0.1/iconfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/Hui-iconfont/1.0.1/iconfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/My97DatePicker/skin/datePicker.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/My97DatePicker/skin/default/img.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/My97DatePicker/skin/twoer/img.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/My97DatePicker/skin/twoer/img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/My97DatePicker/skin/whyGreen/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/My97DatePicker/skin/whyGreen/img.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/expressInstall.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/icheck/aero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/icheck/aero@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/icheck/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/icheck/blue@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/icheck/green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/icheck/green@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/icheck/grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/icheck/grey@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/icheck/minimal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/icheck/minimal@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/icheck/orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/icheck/orange@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/icheck/pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/icheck/pink@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/icheck/purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/icheck/purple@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/icheck/red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/icheck/red@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/icheck/yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/icheck/yellow@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/layer/1.9.3/skin/default/icon-ext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/layer/1.9.3/skin/default/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/layer/1.9.3/skin/default/loading-0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/layer/1.9.3/skin/default/loading-1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/layer/1.9.3/skin/default/loading-2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/layer/1.9.3/skin/mono/default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/emotion/images/bface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/emotion/images/cface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/emotion/images/fface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/emotion/images/jxface2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/emotion/images/neweditor-tab-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/emotion/images/tface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/emotion/images/wface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/emotion/images/yface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/formula/images/formula.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/image/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/image/images/upload1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/image/images/upload2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/video/images/center_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/video/images/left_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/video/images/none_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/video/images/right_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/lang/en/images/addimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/lang/en/images/alldeletebtnhoverskin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/lang/en/images/alldeletebtnupskin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/lang/en/images/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/lang/en/images/button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/lang/en/images/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/lang/en/images/deletedisable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/lang/en/images/deleteenable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/lang/en/images/imglabel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/lang/en/images/listbackground.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/lang/en/images/localimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/lang/en/images/music.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/lang/en/images/rotateleftdisable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/lang/en/images/rotateleftenable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/lang/en/images/rotaterightdisable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/lang/en/images/rotaterightenable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/lang/en/images/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/lang/zh-cn/images/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/lang/zh-cn/images/imglabel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/lang/zh-cn/images/localimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/lang/zh-cn/images/music.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/lang/zh-cn/images/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/themes/default/images/caret.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/themes/default/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/themes/default/images/icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/themes/default/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/themes/default/images/ok.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/themes/default/images/pop-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/themes/default/images/spacer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/themes/default/images/videologo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/mathquill/font/Symbola.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/mathquill/font/Symbola.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/mathquill/font/Symbola.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/mathquill/font/Symbola.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneral-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneral-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneral-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbol-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbol-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbol-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbolita-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbolita-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbolita-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralitalic-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralitalic-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralitalic-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_crazycake_shiro_redis_2_4_2_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/config/shiro/MyShiroRealm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/config/shiro/ShiroConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/controller/shiro/SubmitLoginController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/dao/master/SysUserMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/domain/SysUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/service/SysUserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/resources/web/cityLists.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/jsp/403.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/jsp/add.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/jsp/cityLists.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/jsp/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/jsp/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/build.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/css/bui-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/css/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/css/dpl-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/css/main-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/css/page-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/css/page.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/css/prettify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/js/bui-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/js/bui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/js/common/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/js/common/main-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/js/common/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/js/common/page-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/js/common/page.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/js/common/search-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/js/common/search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/js/config-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/js/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/js/extensions/treegrid-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/js/extensions/treepicker-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/js/jquery-1.8.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/js/module/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/js/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/js/slider-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/INSTALL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/KEYS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/NOTICE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/WHATSNEW" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/bin/ant" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/bin/ant.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/bin/ant.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/bin/antRun" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/bin/antRun.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/bin/antRun.pl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/bin/antenv.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/bin/complete-ant-cmd.pl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/bin/envset.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/bin/lcp.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/bin/runant.pl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/bin/runant.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/bin/runrc.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/etc/changelog.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/etc/checkstyle/checkstyle-frames.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/etc/checkstyle/checkstyle-text.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/etc/checkstyle/checkstyle-xdoc.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/etc/coverage-frames.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/etc/jdepend-frames.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/etc/jdepend.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/etc/junit-frames-xalan1.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/etc/junit-frames.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/etc/junit-noframes.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/etc/log.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/etc/maudit-frames.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/etc/mmetrics-frames.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/etc/tagdiff.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/fetch.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/get-m2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/ant-antlr.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/ant-apache-bcel.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/ant-apache-bsf.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/ant-apache-log4j.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/ant-apache-oro.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/ant-apache-regexp.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/ant-apache-resolver.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/ant-apache-xalan2.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/ant-commons-logging.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/ant-commons-net.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/ant-jai.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/ant-javamail.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/ant-jdepend.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/ant-jmf.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/ant-jsch.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/ant-junit.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/ant-junit4.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/ant-launcher.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/ant-netrexx.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/ant-nodeps.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/ant-parent.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/ant-swing.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/ant-testutil.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/ant.pom" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/assets/tools/ant/lib/libraries.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/css/H-ui.1.x.patch.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/css/H-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/css/animate.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/css/content-base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/css/iconfont.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/css/iconfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/css/jqgrid/ui.jqgrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/css/style.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/css/sweetalert/sweetalert.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/barrage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/content/action.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/content/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/content/jqueryValidator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/content/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/host.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/host2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/jquery-1.11.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/jquery-1.8.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/redischarts/highcharts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/redischarts/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/sweetalert/sweetalert.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/t_io/action.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/t_io/bytebuffer-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/t_io/chat.proto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/t_io/im.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/t_io/protobuf-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/t_io/talen.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/validator-0.7.3/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/validator-0.7.3/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/validator-0.7.3/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/validator-0.7.3/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/validator-0.7.3/jquery.validator.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/validator-0.7.3/jquery.validator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/validator-0.7.3/local/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/validator-0.7.3/local/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/validator-0.7.3/local/zh_CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/validator-0.7.3/local/zh_TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/validator-0.7.3/niceValidator.jquery.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/validator-0.7.3/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/DD_belatedPNG_0.0.8a-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/Hui-iconfont/1.0.1/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/Hui-iconfont/1.0.1/iconfont.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/Hui-iconfont/1.0.1/iconfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/My97DatePicker/WdatePicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/My97DatePicker/calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/My97DatePicker/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/My97DatePicker/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/My97DatePicker/lang/zh-tw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/My97DatePicker/skin/WdatePicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/My97DatePicker/skin/default/datepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/My97DatePicker/skin/twoer/datepicker-dev.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/My97DatePicker/skin/twoer/datepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/My97DatePicker/skin/whyGreen/datepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/PIE-2.0beta1/PIE.htc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/PIE-2.0beta1/PIE.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/PIE-2.0beta1/PIE_IE678.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/PIE-2.0beta1/PIE_IE678_uncompressed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/PIE-2.0beta1/PIE_IE9.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/PIE-2.0beta1/PIE_IE9_uncompressed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/PIE-2.0beta1/PIE_uncompressed.htc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/Validform/5.3.2/Validform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/Validform/5.3.2/Validform.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/Validform/5.3.2/passwordStrength-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/bootstrap-Switch/bootstrapSwitch.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/bootstrap-Switch/bootstrapSwitch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/bootstrap-modal/2.2.4/bootstrap-modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/bootstrap-modal/2.2.4/bootstrap-modalmanager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/handlebars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/html5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/icheck/icheck.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/icheck/jquery.icheck.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/ie-css3.htc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/jquery.SuperSlide.2.1.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/jquery/1.9.1/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/jquery/1.9.1/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/layer/1.9.3/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/layer/1.9.3/doc/jquery下载.url" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/layer/1.9.3/doc/layer交流.url" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/layer/1.9.3/doc/layer官网.url" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/layer/1.9.3/extend/layer.ext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/layer/1.9.3/layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/layer/1.9.3/skin/layer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/layer/1.9.3/skin/layer.ext.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/layer/1.9.3/skin/mono/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/layer/1.9.3/更新日志.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/laypage/1.2/laypage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/laypage/1.2/skin/laypage.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/lazyload/1.9.3/jquery.lazyload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/lazyload/1.9.3/jquery.lazyload.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/lazyload/lazyload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/lazyload/lazyload.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/nprogress/0.2.0/nprogress.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/nprogress/0.2.0/nprogress.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/nprogress/0.2.0/nprogress.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/nprogress/0.2.0/nprogress.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/respond.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/stickUp.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/swfobject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/emotion/emotion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/emotion/emotion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/formula/formula.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/formula/formula.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/formula/formula.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/image/image.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/image/image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/link/link.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/map/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/map/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/video/video.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/dialogs/video/video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/lang/en/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/lang/zh-cn/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/php/Uploader.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/php/getContent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/php/imageUp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/themes/default/css/umeditor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/themes/default/css/umeditor.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/mathquill/font/Symbola.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/mathquill/font/stixgeneral-bundle/STIXFontLicense2010.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneral-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbol-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralbolita-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/mathquill/font/stixgeneral-bundle/stixgeneralitalic-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/mathquill/mathquill.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/mathquill/mathquill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/third-party/mathquill/mathquill.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/umeditor.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/umeditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/umeditor/umeditor.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/unslider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/lib/waterfall.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_1_5_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/config/redis/T.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/INTERVIEWSYS-Core/INTERVIEWSYS-Core.iml" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Core/INTERVIEWSYS-Core.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/INTERVIEWSYS-Core/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Core/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/INTERVIEWSYS-Util/INTERVIEWSYS-Util.iml" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Util/INTERVIEWSYS-Util.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/INTERVIEWSYS-Util/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Util/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/INTERVIEWSYS-Web/INTERVIEWSYS-Web.iml" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/INTERVIEWSYS-Web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/config/ds/ClusterDataSourceConfig.java" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/config/ds/ClusterDataSourceConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/config/ds/MasterDataSourceConfig.java" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/config/ds/MasterDataSourceConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/controller/CityRestController.java" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/controller/CityRestController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/INTERVIEWSYS-Web/target/classes/application.properties" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/target/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/INTERVIEWSYS-Web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/INTERVIEWSYS-Web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/INTERVIEWSYS-Web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/INTERVIEWSYS.iml" afterPath="$PROJECT_DIR$/INTERVIEWSYS.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_1_5_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_1_5_8_RELEASE.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/XQcmsutil/target/" />
@@ -41,41 +401,106 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/Application.java">
+      <file leaf-file-name="ShiroConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/config/shiro/ShiroConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="540">
+              <caret line="44" column="43" lean-forward="true" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1328#1344#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/jsp/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="100" lean-forward="false" selection-start-line="8" selection-start-column="100" selection-end-line="8" selection-end-column="100" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/resources/mapper/master/UserMapper.xml">
+      <file leaf-file-name="cityLists.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/jsp/cityLists.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="26" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CityService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/service/CityService.java">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="48" column="29" lean-forward="false" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+            <state relative-caret-position="324">
+              <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CityMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/resources/mapper/cluster/CityMapper.xml">
+      <file leaf-file-name="MyShiroRealm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/config/shiro/MyShiroRealm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="38" />
+            <state relative-caret-position="142">
+              <caret line="51" column="29" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1513#1521#0" expanded="true" />
+                <element signature="e#1656#1664#0" expanded="true" />
+                <element signature="e#2144#2160#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubmitLoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/controller/shiro/SubmitLoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#1012#1028#0" expanded="true" />
+                <element signature="e#1667#1683#0" expanded="true" />
+                <element signature="e#1947#1948#0" expanded="true" />
+                <element signature="e#1975#1976#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="im.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/t_io/im.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CityRestController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/controller/CityRestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="34" column="88" lean-forward="false" selection-start-line="34" selection-start-column="88" selection-end-line="34" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -88,8 +513,8 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -102,6 +527,10 @@
       <find>user</find>
       <find>BaseResultMap</find>
       <find>INSTANCE</find>
+      <find>SecurityManager</find>
+      <find>sta</find>
+      <find>token</find>
+      <find>spring-mvc.xml</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -131,13 +560,10 @@
         <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/resources/web/cityList.ftl" />
         <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/service/CityService.java" />
         <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/service/impl/CityServiceImpl.java" />
-        <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/controller/CityRestController.java" />
         <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/config/ds/ClusterDataSourceConfig.java" />
         <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/config/ds/MasterDataSourceConfig.java" />
         <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/service/Mybatis_plusDemo.java" />
         <option value="$PROJECT_DIR$/INTERVIEWSYS-Util/src/mian/java/org/spring/springboot/mybatisGen.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/INTERVIEWSYS-Util/src/mian/java/org/spring/springboot/CustomGenerator.java" />
         <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/dao/master/mybatisplusDao.java" />
         <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/service/Mybatis_plusDemoService.java" />
@@ -145,6 +571,22 @@
         <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/domain/Mybatis_plusDemo.java" />
         <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/service/impl/Mybatis_plusDemoServiceImpl.java" />
         <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/resources/mapper/master/demoMapper.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/domain/master/SysUser.java" />
+        <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/domain/SysUser.java" />
+        <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/service/sysUserService.java" />
+        <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/dao/master/SysUserMapper.java" />
+        <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/service/SysUserService.java" />
+        <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/config/shiro/MyShiroRealm.java" />
+        <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/controller/shiro/SubmitLogin.java" />
+        <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/resources/web/cityList.jsp" />
+        <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/controller/CityRestController.java" />
+        <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/resources/web/cityLists.jsp" />
+        <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/controller/shiro/SubmitLoginController.java" />
+        <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/config/shiro/ShiroConfig.java" />
       </list>
     </option>
   </component>
@@ -174,16 +616,6 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
         </PATH_ELEMENT>
       </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="INTERVIEWSYS" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
@@ -207,9 +639,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -218,8 +649,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ljxcms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -228,153 +659,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ljxcms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="INTERVIEWSYS-Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ljxcms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemId" value="Maven: org.apache.shiro:shiro-core:1.3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ljxcms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="INTERVIEWSYS-Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ljxcms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ljxcms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="INTERVIEWSYS-Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ljxcms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ljxcms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="INTERVIEWSYS-Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ljxcms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ljxcms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="INTERVIEWSYS-Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cluster" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ljxcms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ljxcms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="INTERVIEWSYS-Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="shiro-core-1.3.2.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -382,11 +675,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
+              <option name="myItemId" value="apache" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springboot" />
+              <option name="myItemId" value="shiro" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -396,35 +689,93 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: org.apache.shiro:shiro-core:1.3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro-core-1.3.2.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="ljxcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: com.baomidou:mybatis-plus:2.1.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mybatis-plus-2.1.1.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ljxcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: com.baomidou:mybatis-plus:2.1.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mybatis-plus-2.1.1.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="INTERVIEWSYS-Web" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="baomidou" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="mybatisplus" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ljxcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: com.baomidou:mybatis-plus:2.1.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mybatis-plus-2.1.1.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
+              <option name="myItemId" value="baomidou" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springboot" />
+              <option name="myItemId" value="mybatisplus" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -438,35 +789,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ljxcms" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: com.baomidou:mybatis-plus:2.1.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mybatis-plus-2.1.1.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="INTERVIEWSYS-Web" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="baomidou" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springboot" />
+              <option name="myItemId" value="mybatisplus" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -484,6 +827,110 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ljxcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ljxcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ljxcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ljxcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ljxcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ljxcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ljxcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="INTERVIEWSYS-Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ljxcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="ljxcms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -500,23 +947,165 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ljxcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ljxcms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
+              <option name="myItemId" value="INTERVIEWSYS-Web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springboot" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ljxcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ljxcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="INTERVIEWSYS-Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ljxcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ljxcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="INTERVIEWSYS-Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ljxcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ljxcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="INTERVIEWSYS-Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ljxcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ljxcms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="INTERVIEWSYS-Web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -555,98 +1144,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="springboot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ljxcms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ljxcms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="INTERVIEWSYS-Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springboot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ljxcms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ljxcms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="INTERVIEWSYS-Web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springboot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -691,6 +1188,10 @@
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shiro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -731,67 +1232,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ds" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ljxcms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ljxcms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="INTERVIEWSYS-Util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ljxcms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ljxcms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="INTERVIEWSYS-Util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mian" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springboot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -803,11 +1249,15 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.spring.springboot.domain" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ljxcms\INTERVIEWSYS-Web\src\main\webapp\WEB-INF\jsp" />
+      <recent name="E:\ljxcms\INTERVIEWSYS-Web\src\main\webapp\WEB-INF" />
+      <recent name="E:\ljxcms\INTERVIEWSYS-Web\src\main\resources\web" />
       <recent name="$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/resources/web" />
       <recent name="E:\ljxcms1.0\INTERVIEWSYS-Web\target" />
-      <recent name="E:\ljxcms1.0\INTERVIEWSYS-Web\src\main\resources" />
-      <recent name="E:\ljxcms1.0\INTERVIEWSYS-Web\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1181,6 +1631,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="155c7dde-a994-42d6-89ac-bdfc4a48d124" name="Default" comment="" />
@@ -1192,7 +1645,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1210,19 +1663,19 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28198293" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28518122" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.51897323" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2421875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1234,7 +1687,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1243,85 +1696,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/XQcmsutil/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Core/INTERVIEWSYS-Core.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XQcms-core/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/XQcms-web-admin/src/main/webapp/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/XQcms-web-admin/src/main/webapp/WEB-INF/web.xml" />
-    <entry file="file://$PROJECT_DIR$/XQcms-web-admin/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/spring/springboot/Application.java" />
-    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/domain/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/controller/UserRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/dao/master/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/target/classes/org/spring/springboot/dao/master/UserDao.class" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Util/src/mian/java/Util.java" />
-    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Util/src/mian/java/org/spring/springboot/abc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1376,67 +1750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/resources/web/cityList.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/config/redis/T.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/config/redis/RedisCacheConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/config/redis/RedisUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/config/ds/ClusterDataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="53" column="39" lean-forward="false" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/controller/CityRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="3" lean-forward="false" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1452,7 +1765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1464,22 +1776,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Util/src/mian/java/org/spring/springboot/CustomGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="70" column="1" lean-forward="true" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="93" column="21" lean-forward="true" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Util/src/mian/java/org/spring/springboot/CustomGenerator.java" />
     <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/service/impl/CityServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="813">
@@ -1491,57 +1788,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/controller/Mybatis_plusDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="23" column="55" lean-forward="false" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/dao/master/mybatisplusDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/service/impl/Mybatis_plusDemoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="53" lean-forward="false" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/controller/Mybatis_plusDemo.java" />
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/dao/master/mybatisplusDao.java" />
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/service/impl/Mybatis_plusDemoServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/service/CityService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
+        <state relative-caret-position="1242">
           <caret line="48" column="29" lean-forward="false" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/service/Mybatis_plusDemoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/service/Mybatis_plusDemoService.java" />
     <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/resources/mapper/cluster/CityMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="621">
           <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="38" />
           <folding />
         </state>
@@ -1549,25 +1812,257 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/resources/mapper/master/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="405">
           <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/resources/mapper/master/demoMapper.xml">
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/resources/mapper/master/demoMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/domain/Mybatis_plusDemo.java" />
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/config/redis/T.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="57" lean-forward="false" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+        <state relative-caret-position="54">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/domain/Mybatis_plusDemo.java">
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/config/redis/RedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/config/redis/RedisCacheConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="44" column="51" lean-forward="false" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="101" column="21" lean-forward="false" selection-start-line="101" selection-start-column="21" selection-end-line="101" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/SecurityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="226" column="6" lean-forward="false" selection-start-line="226" selection-start-column="6" selection-end-line="226" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/domain/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-519">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/domain/master/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/domain/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/service/SysUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/dao/master/SysUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus/2.1.1/mybatis-plus-2.1.1.jar!/com/baomidou/mybatisplus/service/impl/ServiceImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="330" column="19" lean-forward="false" selection-start-line="330" selection-start-column="19" selection-end-line="330" selection-end-column="19" />
+          <folding>
+            <element signature="e#12064#12065#0" expanded="true" />
+            <element signature="e#12125#12126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/SecurityUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/resources/web/cityList.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/config/ds/ClusterDataSourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="53" column="39" lean-forward="false" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/resources/web/cityLists.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/resources/web/jsp/cityLists.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="34" column="88" lean-forward="false" selection-start-line="34" selection-start-column="88" selection-end-line="34" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/js/t_io/im.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/controller/CityRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/controller/shiro/SubmitLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#1012#1028#0" expanded="true" />
+            <element signature="e#1667#1683#0" expanded="true" />
+            <element signature="e#1947#1948#0" expanded="true" />
+            <element signature="e#1975#1976#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/config/shiro/MyShiroRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="51" column="29" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1513#1521#0" expanded="true" />
+            <element signature="e#1656#1664#0" expanded="true" />
+            <element signature="e#2144#2160#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/jsp/cityLists.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/css/animate.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/webapp/WEB-INF/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="100" lean-forward="false" selection-start-line="8" selection-start-column="100" selection-end-line="8" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INTERVIEWSYS-Web/src/main/java/org/spring/springboot/config/shiro/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="44" column="43" lean-forward="true" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1328#1344#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

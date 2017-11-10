@@ -30,7 +30,7 @@ public class CityRestController {
     public String findAllCity(Model model) {
         List<City> cityList = cityService.findAllCity();
         model.addAttribute("cityList",cityList);
-        return "cityList";
+        return "cityLists";
     }
 
     @RequestMapping(value = "/api/city", method = RequestMethod.POST)
