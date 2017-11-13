@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="INTERVIEWSYS-Web:war">
+    <output-path>$PROJECT_DIR$/INTERVIEWSYS-Web/target</output-path>
+    <root id="archive" name="INTERVIEWSYS-Web.war">
+      <element id="artifact" artifact-name="INTERVIEWSYS-Web:war exploded" />
+    </root>
+  </artifact>
+</component>
