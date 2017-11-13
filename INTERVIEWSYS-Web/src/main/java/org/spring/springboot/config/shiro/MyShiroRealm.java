@@ -30,7 +30,7 @@ public class MyShiroRealm extends AuthorizingRealm {
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
         System.out.println("权限认证方法：MyShiroRealm.doGetAuthenticationInfo()");
         SysUser token = (SysUser) SecurityUtils.getSubject().getPrincipal();
-        String userId = token.getId();
+        Long userId = token.getId();
         SimpleAuthorizationInfo info =  new SimpleAuthorizationInfo();
 
         //实际开发，当前登录用户的角色和权限信息是从数据库来获取的，我这里写死是为了方便测试
@@ -42,7 +42,7 @@ public class MyShiroRealm extends AuthorizingRealm {
         Set<String> permissionSet = new HashSet<String>();
         permissionSet.add("权限添加");
         info.setStringPermissions(permissionSet);
-        return info;
+        return null;
     }
     //登录认证实现
     @Override
@@ -52,7 +52,7 @@ public class MyShiroRealm extends AuthorizingRealm {
         UsernamePasswordToken token = (UsernamePasswordToken) authenticationToken;
         Map<String, Object> map = new HashMap<String, Object>();
         map.put("nickname", token.getUsername());
-        map.put("pswd", token.getPassword());
+        map.put("pswd", "123456");
         SysUser user = null;
         // 从数据库获取对应用户名密码的用户
         List<SysUser> userList = sysUserService.selectByMap(map);

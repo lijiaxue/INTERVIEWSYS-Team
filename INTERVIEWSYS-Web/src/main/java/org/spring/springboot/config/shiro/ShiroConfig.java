@@ -1,10 +1,11 @@
 package org.spring.springboot.config.shiro;
 
+import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.apache.shiro.mgt.SecurityManager;
+
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -36,7 +37,8 @@ public class ShiroConfig {
         // 拦截器.
         Map<String, String> filterChainDefinitionMap = new LinkedHashMap<String, String>();
         // 配置不会被拦截的链接 顺序判断
-        filterChainDefinitionMap.put("/static/**", "anon");
+        filterChainDefinitionMap.put("/js/**", "anon");
+        filterChainDefinitionMap.put("/css/**", "anon");
         filterChainDefinitionMap.put("/ajaxLogin", "anon");
 
         // 配置退出过滤器,其中的具体的退出代码Shiro已经替我们实现了
@@ -49,7 +51,7 @@ public class ShiroConfig {
         // <!-- authc:所有url都必须认证通过才可以访问; anon:所有url都都可以匿名访问-->
         filterChainDefinitionMap.put("/**", "authc");
 
-        shiroFilterFactoryBean.setFilterChainDefinitionMap(filterChainDefinitionMap);
+     //   shiroFilterFactoryBean.setFilterChainDefinitionMap(filterChainDefinitionMap);
         System.out.println("Shiro拦截器工厂类注入成功");
         return shiroFilterFactoryBean;
     }
@@ -67,9 +69,11 @@ public class ShiroConfig {
      *
      * @return
      */
-   // @Bean
+    @Bean
    public MyShiroRealm myShiroRealm() {
         MyShiroRealm myShiroRealm = new MyShiroRealm();
         return myShiroRealm;
     }
+
+
 }
