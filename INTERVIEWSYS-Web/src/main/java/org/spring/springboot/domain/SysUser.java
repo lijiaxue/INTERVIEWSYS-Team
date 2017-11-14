@@ -7,12 +7,15 @@ import com.baomidou.mybatisplus.annotations.TableName;
 import java.io.Serializable;
 import java.util.Date;
 
-@TableName("sys_user")
+/**
+ * 李佳学
+ */
+@TableName("u_user")
 public class SysUser extends Model<SysUser> {
 
     private static final long serialVersionUID = 1L;
 
-    private String id;
+    private Long id;
     /**
      * 用户昵称
      */
@@ -34,21 +37,8 @@ public class SysUser extends Model<SysUser> {
      * 1:有效，0:禁止登录
      */
     private String status;
-    /**
-     * 最后修改人Id
-     */
-    @TableField(value = "last_update_name_id")
-    private String lastUpdateNameId;
-    /**
-     * 创建人Id
-     */
-    @TableField(value = "create_name_id")
-    private String createNameId;
-    /**
-     * 最后修改时间
-     */
-    @TableField(value = "last_update_time")
-    private Date lastUpdateTime;
+
+
     /**
      * 创建时间
      */
@@ -67,16 +57,15 @@ public class SysUser extends Model<SysUser> {
         this.createTime = user.getCreateTime();
         this.lastLoginTime = user.getLastLoginTime();
         this.status = user.getStatus();
-        this.createNameId = user.getCreateNameId();
-        this.lastUpdateNameId = user.getLastUpdateNameId();
-        this.lastUpdateTime = user.getLastUpdateTime();
+
+
     }
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -128,29 +117,9 @@ public class SysUser extends Model<SysUser> {
         this.status = status;
     }
 
-    public String getLastUpdateNameId() {
-        return lastUpdateNameId;
-    }
 
-    public void setLastUpdateNameId(String lastUpdateNameId) {
-        this.lastUpdateNameId = lastUpdateNameId;
-    }
 
-    public String getCreateNameId() {
-        return createNameId;
-    }
 
-    public void setCreateNameId(String createNameId) {
-        this.createNameId = createNameId;
-    }
-
-    public Date getLastUpdateTime() {
-        return lastUpdateTime;
-    }
-
-    public void setLastUpdateTime(Date lastUpdateTime) {
-        this.lastUpdateTime = lastUpdateTime;
-    }
 
     @Override
     protected Serializable pkVal() {

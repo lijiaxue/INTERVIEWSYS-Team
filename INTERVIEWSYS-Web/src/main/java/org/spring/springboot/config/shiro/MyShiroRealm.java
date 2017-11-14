@@ -1,21 +1,43 @@
 package org.spring.springboot.config.shiro;
 
-import org.apache.shiro.SecurityUtils;
+import org.apache.log4j.Logger;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
+import org.spring.springboot.algorithm.MyDES;
 import org.spring.springboot.domain.SysUser;
+import org.spring.springboot.service.SysPermissionService;
+import org.spring.springboot.service.SysRoleService;
 import org.spring.springboot.service.SysUserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.StringRedisTemplate;
+import org.springframework.data.redis.core.ValueOperations;
 
 import java.util.*;
+import java.util.concurrent.TimeUnit;
 
 
 public class MyShiroRealm extends AuthorizingRealm {
+
     @Autowired
     private SysUserService sysUserService;
+
+    @Autowired
+    private SysPermissionService sysPermissionService;
+
+    @Autowired
+    StringRedisTemplate stringRedisTemplate;
+
+    @Autowired
+    private SysRoleService sysRoleService;
+
+    //用户登录次数计数  redisKey 前缀
+    private String SHIRO_LOGIN_COUNT = "shiro_login_count_";
+
+    //用户登录是否被锁定    一小时 redisKey 前缀
+    private String SHIRO_IS_LOCK = "shiro_is_lock_";
 
 /*          1、检查提交的进行认证的令牌信息
             2、根据令牌信息从数据源(通常为数据库)中获取用户信息
@@ -29,8 +51,7 @@ public class MyShiroRealm extends AuthorizingRealm {
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
         System.out.println("权限认证方法：MyShiroRealm.doGetAuthenticationInfo()");
-        SysUser token = (SysUser) SecurityUtils.getSubject().getPrincipal();
-        String userId = token.getId();
+
         SimpleAuthorizationInfo info =  new SimpleAuthorizationInfo();
 
         //实际开发，当前登录用户的角色和权限信息是从数据库来获取的，我这里写死是为了方便测试
@@ -42,7 +63,7 @@ public class MyShiroRealm extends AuthorizingRealm {
         Set<String> permissionSet = new HashSet<String>();
         permissionSet.add("权限添加");
         info.setStringPermissions(permissionSet);
-        return info;
+        return null;
     }
     //登录认证实现
     @Override
@@ -50,9 +71,22 @@ public class MyShiroRealm extends AuthorizingRealm {
         System.out.println("身份认证方法：MyShiroRealm.doGetAuthenticationInfo()");
 
         UsernamePasswordToken token = (UsernamePasswordToken) authenticationToken;
+        String name = token.getUsername();
+        String password = String.valueOf(token.getPassword());
+        //访问一次，计数一次
+        ValueOperations<String, String> opsForValue = stringRedisTemplate.opsForValue();
+        opsForValue.increment(SHIRO_LOGIN_COUNT+name, 1);
+        //计数大于5时，设置用户被锁定一小时
+        if(Integer.parseInt(opsForValue.get(SHIRO_LOGIN_COUNT+name))>=5){
+            opsForValue.set(SHIRO_IS_LOCK+name, "LOCK");
+            stringRedisTemplate.expire(SHIRO_IS_LOCK+name, 1, TimeUnit.HOURS);
+        }
+        if ("LOCK".equals(opsForValue.get(SHIRO_IS_LOCK+name))){
+            throw new DisabledAccountException("由于密码输入错误次数大于5次，帐号已经禁止登录！");
+        }
         Map<String, Object> map = new HashMap<String, Object>();
-        map.put("nickname", token.getUsername());
-        map.put("pswd", token.getPassword());
+        map.put("nickname", name);
+        map.put("pswd", password);
         SysUser user = null;
         // 从数据库获取对应用户名密码的用户
         List<SysUser> userList = sysUserService.selectByMap(map);
@@ -70,7 +104,10 @@ public class MyShiroRealm extends AuthorizingRealm {
             //更新登录时间 last login time
             user.setLastLoginTime(new Date());
             sysUserService.updateById(user);
+            //清空登录计数
+            opsForValue.set(SHIRO_LOGIN_COUNT+name, "0");
         }
+        Logger.getLogger(getClass()).info("身份认证成功，登录用户："+name);
         return new SimpleAuthenticationInfo(user, user.getPswd(), getName());
     }
 }
