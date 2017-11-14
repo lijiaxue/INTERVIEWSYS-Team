@@ -53,11 +53,7 @@
 	<div class="part" style="z-index:-1;position:fixed;height:100%;width:100%;top:0;left:0"></div>
 </body>
 <script type="text/javascript">
-	
-	//跳转到个人博客
-	function boke(){
-		location.href = "http://z77z.oschina.io/";
-	}
+
 
 	function login() {
 		var username = $("#username").val();

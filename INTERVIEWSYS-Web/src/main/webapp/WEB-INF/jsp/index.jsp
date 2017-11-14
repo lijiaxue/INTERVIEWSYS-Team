@@ -2,7 +2,7 @@
 <#assign contextPath = request.contextPath />
 <html>
  <head>
-  <title>z77z后台管理|首页</title>
+  <title>考试后台管理|首页</title>
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
    <link href="${contextPath}/assets/css/dpl-min.css" rel="stylesheet" type="text/css" />
    <link href="${contextPath}/assets/css/bui-min.css" rel="stylesheet" type="text/css" />
@@ -11,9 +11,7 @@
  <body>
 	<div class="header">
 		<div class="dl-title">
-			<a href="http://z77z.oschina.io/" title="个人博客地址" target="_blank">
-				<span class="lp-title-port">z77z</span><span class="dl-title-text">后台管理系统</span>
-			</a>
+				<span class="lp-title-port">考试</span><span class="dl-title-text">后台管理系统</span>
 		</div>
 		<div class="dl-log">
 			欢迎您，<span class="dl-log-user">王二</span> <span class="admin">（管理员）</span>

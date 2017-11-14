@@ -2,6 +2,7 @@ package org.spring.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cache.annotation.EnableCaching;
 
 /**
  * Spring Boot 应用启动类
@@ -10,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 // Spring Boot 应用的标识
 @SpringBootApplication
+@EnableCaching(proxyTargetClass = true) // 开启缓存功能
 public class Application {
 
     public static void main(String[] args) {

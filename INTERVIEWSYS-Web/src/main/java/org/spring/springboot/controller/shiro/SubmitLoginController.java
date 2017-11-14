@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.activerecord.Model;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.session.Session;
+import org.spring.springboot.algorithm.MyDES;
 import org.spring.springboot.config.vcode.Captcha;
 import org.spring.springboot.config.vcode.GifCaptcha;
 import org.spring.springboot.domain.SysUser;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import javax.validation.Valid;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -35,6 +37,19 @@ public class SubmitLoginController {
         return "index";
     }
 
+    //踢出用户
+    @RequestMapping(value="kickouting")
+    @ResponseBody
+    public String kickouting() {
+        return "kickout";
+    }
+
+    //被踢出后跳转的页面
+    @RequestMapping(value="kickout")
+    public String kickout() {
+        return "kickout";
+    }
+
     /**
      * ajax登录请求
      * @param username
@@ -43,7 +58,7 @@ public class SubmitLoginController {
      */
     @RequestMapping(value="ajaxLogin",method=RequestMethod.POST)
     @ResponseBody
-    public Map<String,Object> submitLogin(String username, String password, String vcode, Boolean rememberMe, org.springframework.ui.Model model) {
+    public Map<String,Object> submitLogin( String username, String password, String vcode, Boolean rememberMe, org.springframework.ui.Model model) {
         Map<String, Object> resultMap = new LinkedHashMap<String, Object>();
 
         if(vcode==null||vcode==""){
@@ -51,24 +66,24 @@ public class SubmitLoginController {
             resultMap.put("message", "验证码不能为空！");
             return resultMap;
         }
-
         Session session = SecurityUtils.getSubject().getSession();
         //转化成小写字母
         vcode = vcode.toLowerCase();
         String v = (String) session.getAttribute("_code");
         //还可以读取一次后把验证码清空，这样每次登录都必须获取验证码
-        //session.removeAttribute("_come");
-/*        if(!vcode.equals(v)){
+       // session.removeAttribute("_come");
+       if(!vcode.equals(v)){
             resultMap.put("status", 500);
             resultMap.put("message", "验证码错误！");
             return resultMap;
-        }*/
+        }
 
         try {
-            UsernamePasswordToken token = new UsernamePasswordToken(username, password,rememberMe);
+            UsernamePasswordToken token = new UsernamePasswordToken(username,password ,rememberMe);
             SecurityUtils.getSubject().login(token);
             resultMap.put("status", 200);
             resultMap.put("message", "登录成功");
+
 
         } catch (Exception e) {
             resultMap.put("status", 500);
@@ -118,9 +133,9 @@ public class SubmitLoginController {
             Captcha captcha = new GifCaptcha(146,33,4);
             //输出
             captcha.out(response.getOutputStream());
-           // HttpSession session = request.getSession(true);
+            HttpSession session = request.getSession(true);
             //存入Session
-          //  session.setAttribute("_code",captcha.text().toLowerCase());
+            session.setAttribute("_code",captcha.text().toLowerCase());
         } catch (Exception e) {
             System.err.println("获取验证码异常："+e.getMessage());
         }
