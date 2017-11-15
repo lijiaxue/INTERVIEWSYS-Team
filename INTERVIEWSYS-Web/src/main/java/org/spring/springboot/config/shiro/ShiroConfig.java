@@ -18,7 +18,7 @@ import javax.servlet.Filter;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-//@Configuration
+@Configuration
 public class ShiroConfig {
     /**
      * ShiroFilterFactoryBean 处理拦截资源文件问题。
@@ -34,6 +34,8 @@ public class ShiroConfig {
     private String host;
     @Value("${spring.redis.port}")
     private int port;
+    @Value("${spring.redis.timeout}")
+    private int timeout;
 
     @Bean
     public ShiroFilterFactoryBean shirFilter(SecurityManager securityManager) {
@@ -58,10 +60,10 @@ public class ShiroConfig {
         Map<String, String> filterChainDefinitionMap = new LinkedHashMap<String, String>();
         // 配置不会被拦截的链接 顺序判断 :默认先不拦截
        // filterChainDefinitionMap.put("/error", "anon");
+        filterChainDefinitionMap.put("/getGifCode", "anon");
        filterChainDefinitionMap.put("/css/**", "anon");
         filterChainDefinitionMap.put("/js/**", "anon");
         filterChainDefinitionMap.put("/static/**", "anon");
-        filterChainDefinitionMap.put("/getGifCode", "anon");
         filterChainDefinitionMap.put("/ajaxLogin", "anon");
         //配置记住我或认证通过可以访问的地址
         filterChainDefinitionMap.put("/**", "user");
@@ -116,6 +118,7 @@ public class ShiroConfig {
         redisManager.setHost(host);
         redisManager.setPort(port);
         redisManager.setExpire(1800);// 配置过期时间
+        redisManager.setTimeout(timeout);
         return redisManager;
     }
     /**

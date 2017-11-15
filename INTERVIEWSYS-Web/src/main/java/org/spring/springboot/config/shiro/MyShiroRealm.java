@@ -1,12 +1,13 @@
 package org.spring.springboot.config.shiro;
 
 import org.apache.log4j.Logger;
+import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
+import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.PrincipalCollection;
-import org.spring.springboot.algorithm.MyDES;
 import org.spring.springboot.domain.SysUser;
 import org.spring.springboot.service.SysPermissionService;
 import org.spring.springboot.service.SysRoleService;
@@ -104,6 +105,9 @@ public class MyShiroRealm extends AuthorizingRealm {
             //更新登录时间 last login time
             user.setLastLoginTime(new Date());
             sysUserService.updateById(user);
+            Session session = SecurityUtils.getSubject().getSession();
+            session.setAttribute("userSession", user);
+            session.setAttribute("userSessionId", user.getId());
             //清空登录计数
             opsForValue.set(SHIRO_LOGIN_COUNT+name, "0");
         }
