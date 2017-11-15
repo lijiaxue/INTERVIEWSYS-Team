@@ -56,7 +56,6 @@ public class SubmitLoginController {
     @ResponseBody
     public Map<String,Object> submitLogin( String username, String password, String vcode, Boolean rememberMe, org.springframework.ui.Model model) {
         Map<String, Object> resultMap = new LinkedHashMap<String, Object>();
-
         if(vcode==null||vcode==""){
             resultMap.put("status", 500);
             resultMap.put("message", "验证码不能为空！");
@@ -66,6 +65,7 @@ public class SubmitLoginController {
         //转化成小写字母
         vcode = vcode.toLowerCase();
         String v = (String) session.getAttribute("_code");
+       // SecurityUtils.getSubject().hasRole(username);
         //还可以读取一次后把验证码清空，这样每次登录都必须获取验证码
        // session.removeAttribute("_come");
        if(!vcode.equals(v)){
@@ -75,12 +75,11 @@ public class SubmitLoginController {
         }
 
         try {
-            UsernamePasswordToken token = new UsernamePasswordToken(username,password ,rememberMe);
+            UsernamePasswordToken token = new UsernamePasswordToken(username,password);
+            token.setRememberMe(rememberMe);
             SecurityUtils.getSubject().login(token);
             resultMap.put("status", 200);
             resultMap.put("message", "登录成功");
-
-
         } catch (Exception e) {
             resultMap.put("status", 500);
             resultMap.put("message", e.getMessage());

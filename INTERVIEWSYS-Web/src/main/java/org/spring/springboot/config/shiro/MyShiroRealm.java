@@ -6,7 +6,6 @@ import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
-import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.spring.springboot.domain.SysUser;
 import org.spring.springboot.service.SysPermissionService;
@@ -52,7 +51,8 @@ public class MyShiroRealm extends AuthorizingRealm {
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
         System.out.println("权限认证方法：MyShiroRealm.doGetAuthenticationInfo()");
-
+        SysUser user = (SysUser)SecurityUtils.getSubject().getPrincipal();
+        Long userId = user.getId();
         SimpleAuthorizationInfo info =  new SimpleAuthorizationInfo();
 
         //实际开发，当前登录用户的角色和权限信息是从数据库来获取的，我这里写死是为了方便测试
@@ -64,7 +64,7 @@ public class MyShiroRealm extends AuthorizingRealm {
         Set<String> permissionSet = new HashSet<String>();
         permissionSet.add("权限添加");
         info.setStringPermissions(permissionSet);
-        return null;
+        return info;
     }
     //登录认证实现
     @Override
@@ -105,9 +105,6 @@ public class MyShiroRealm extends AuthorizingRealm {
             //更新登录时间 last login time
             user.setLastLoginTime(new Date());
             sysUserService.updateById(user);
-            Session session = SecurityUtils.getSubject().getSession();
-            session.setAttribute("userSession", user);
-            session.setAttribute("userSessionId", user.getId());
             //清空登录计数
             opsForValue.set(SHIRO_LOGIN_COUNT+name, "0");
         }
