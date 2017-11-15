@@ -18,7 +18,7 @@ import javax.servlet.Filter;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-@Configuration
+//@Configuration
 public class ShiroConfig {
     /**
      * ShiroFilterFactoryBean 处理拦截资源文件问题。
