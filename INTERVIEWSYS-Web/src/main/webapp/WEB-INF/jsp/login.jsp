@@ -6,18 +6,18 @@
 	<meta http-equiv="content-type" content="text/html">
 	<meta charset="UTF-8">
 	<title>SpringBoot学习|登录</title>
-	<link rel="stylesheet" href="INTERVIEWSYS-Web/src/main/webapp/WEB-INF/static/css/animate.min.css">
-	<link rel="stylesheet" href="${contextPath}/static/css/bootstrap.min.css">
-	<link rel="stylesheet" href="${contextPath}/static/css/font-awesome.min.css">
-	<link rel="stylesheet" href="${contextPath}/static/css/style.min.css">
-	<link rel="stylesheet" href="${contextPath}/static/css/iconfont.css">
-	<link rel="stylesheet" href="${contextPath}/static/js/validator-0.7.3/jquery.validator.css">
-	<link rel="stylesheet" href="${contextPath}/static/css/sweetalert/sweetalert.css">
-	<script src="${contextPath}/static/js/jquery-1.8.3.js"></script>
-	<script type="text/javascript" src="${contextPath}/static/js/validator-0.7.3/jquery.validator.js"></script>
-	<script type="text/javascript" src="${contextPath}/static/js/validator-0.7.3/local/zh_CN.js"></script>
-	<script type="text/javascript" src="${contextPath}/static/js/host.js"></script>
-	<script type="text/javascript" src="${contextPath}/static/js/sweetalert/sweetalert.min.js"></script>
+	<link rel="stylesheet" href="${contextPath}/css/animate.min.css">
+	<link rel="stylesheet" href="${contextPath}/css/bootstrap.min.css">
+	<link rel="stylesheet" href="${contextPath}/css/font-awesome.min.css">
+	<link rel="stylesheet" href="${contextPath}/css/style.min.css">
+	<link rel="stylesheet" href="${contextPath}/css/iconfont.css">
+	<link rel="stylesheet" href="${contextPath}/js/validator-0.7.3/jquery.validator.css">
+	<link rel="stylesheet" href="${contextPath}/css/sweetalert/sweetalert.css">
+	<script src="${contextPath}/js/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="${contextPath}/js/validator-0.7.3/jquery.validator.js"></script>
+	<script type="text/javascript" src="${contextPath}/js/validator-0.7.3/local/zh_CN.js"></script>
+	<script type="text/javascript" src="${contextPath}/js/host.js"></script>
+	<script type="text/javascript" src="${contextPath}/js/sweetalert/sweetalert.min.js"></script>
 </head>
 <body bgcolor="#FFFFFF">
 	<div class="middle-box text-center loginscreen  ">
@@ -46,18 +46,14 @@
             <br/>
             <br/>
             <div class = "animated bounceInLeft" onclick="boke();">
-                © 2017 All Rights Reserved. 邹海清|z77z的小码窝
+                © 2017 All Rights Reserved.
             </div>
         </div>
     </div>
 	<div class="part" style="z-index:-1;position:fixed;height:100%;width:100%;top:0;left:0"></div>
 </body>
 <script type="text/javascript">
-	
-	//跳转到个人博客
-	function boke(){
-		location.href = "http://z77z.oschina.io/";
-	}
+
 
 	function login() {
 		var username = $("#username").val();
@@ -73,7 +69,7 @@
 				"rememberMe" : rememberMe
 			},
 			dataType : "json",
-			url : "<%=contextPath%>/ajaxLogin",
+			url : "${contextPath}/ajaxLogin",
 			success : function(result) {
 				
 				if (result.status != 200) {

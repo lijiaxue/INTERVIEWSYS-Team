@@ -30,9 +30,10 @@
         <spring-boot-starter-redis-version>1.3.2.RELEASE</spring-boot-starter-redis-version>
         <spring-boot-freemarker-version>1.5.8.RELEASE</spring-boot-freemarker-version>
         <mybatis-plus>2.1.1</mybatis-plus>
-        <mybatis-velocity-version>1.7</mybatis-velocity-version>
         <shiro-version>1.3.2</shiro-version>
         <shiro-redis-version>2.4.2.1-RELEASE</shiro-redis-version>
+        <json-version>1.2.38</json-version>
+        <comons-version>3.5</comons-version>
     </properties>
 
     <dependencies>
@@ -88,12 +89,7 @@
             <artifactId>mybatis-plus</artifactId>
             <version>${mybatis-plus}</version>
         </dependency>
-        <!-- Mybatis代码生成器 -->
-        <dependency>
-            <groupId>org.apache.velocity</groupId>
-            <artifactId>velocity</artifactId>
-            <version>${mybatis-velocity-version}</version>
-        </dependency>
+
         <!-- shiro权限控制框架 -->
         <dependency>
             <groupId>org.apache.shiro</groupId>
@@ -105,6 +101,18 @@
             <groupId>org.crazycake</groupId>
             <artifactId>shiro-redis</artifactId>
             <version>${shiro-redis-version}</version>
+        </dependency>
+        <!-- fastjson阿里巴巴jSON处理器 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${json-version}</version>
+        </dependency>
+        <!--Apache Commons包含了很多开源的工具，用于解决平时编程经常会遇到的问题，减少重复劳动。 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${comons-version}</version>
         </dependency>
 
 
