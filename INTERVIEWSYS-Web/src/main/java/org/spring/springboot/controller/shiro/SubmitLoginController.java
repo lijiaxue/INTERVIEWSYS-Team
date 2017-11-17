@@ -3,6 +3,7 @@ package org.spring.springboot.controller.shiro;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.session.Session;
+import org.apache.shiro.subject.Subject;
 import org.spring.springboot.config.vcode.Captcha;
 import org.spring.springboot.config.vcode.GifCaptcha;
 import org.springframework.stereotype.Controller;
@@ -21,10 +22,17 @@ import java.util.Map;
  */
 @Controller
 public class SubmitLoginController {
+
     //跳转到登录表单页面
     @RequestMapping(value="/login")
     public String login() {
         return "login";
+    }
+
+    //跳转到登录表单页面
+    @RequestMapping(value="/main")
+    public String main() {
+        return "main";
     }
 
     //跳转到主页
@@ -75,9 +83,11 @@ public class SubmitLoginController {
         }
 
         try {
+            Subject currentUser = SecurityUtils.getSubject();
             UsernamePasswordToken token = new UsernamePasswordToken(username,password);
             token.setRememberMe(rememberMe);
-            SecurityUtils.getSubject().login(token);
+            currentUser.login(token);
+           // SecurityUtils.getSubject().login(token);
             resultMap.put("status", 200);
             resultMap.put("message", "登录成功");
         } catch (Exception e) {

@@ -1,6 +1,8 @@
-package org.spring.springboot.config.shiro;
+package org.spring.springboot.config.shiro.filter;
 
 import com.alibaba.fastjson.JSON;
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.cache.Cache;
 import org.apache.shiro.cache.CacheManager;
 import org.apache.shiro.session.Session;
@@ -17,10 +19,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.Serializable;
-import java.util.Deque;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Map;
+import java.util.*;
 
 /**
  *
@@ -87,6 +86,8 @@ public class KickoutSessionControlFilter extends AccessControlFilter {
         SysUser user = (SysUser) subject.getPrincipal();
         String username = user.getNickname();
         Serializable sessionId = session.getId();
+        subject = SecurityUtils.getSubject();
+
 
         //读取缓存   没有就存入
         Deque<Serializable> deque = cache.get(username);
