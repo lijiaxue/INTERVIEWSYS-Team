@@ -109,9 +109,9 @@
                         </a>
                     </dd>
                     <dd>
-                        <a href="javascript:;" data-url="myloginfo.html">
+                        <a href="javascript:;" data-url="${contextPath}/user/index">
                             <i class="iconfont icon-piliangicon" data-icon='icon-piliangicon'></i>
-                            <span>日志信息</span>
+                            <span>用户管理</span>
                         </a>
                     </dd>
                 </dl>

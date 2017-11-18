@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.mapper.Wrapper;
 import com.baomidou.mybatisplus.plugins.Page;
+import org.apache.shiro.SecurityUtils;
 import org.spring.springboot.CustomPage;
 import org.spring.springboot.FrontPage;
 import org.spring.springboot.domain.SysUser;
@@ -19,6 +20,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -35,6 +37,22 @@ public class UserController {
 
 	@Autowired
 	SysUserService sysUserService;
+
+	//跳转到个人首页
+	@RequestMapping(value="/user")
+	public String loginUser( Model modle) {
+		SysUser user = (SysUser) SecurityUtils.getSubject().getPrincipal();
+		modle.addAttribute("user",user);
+		return "/user/user";
+	}
+
+	//跳转到用户管理
+	@RequestMapping(value="/index")
+	public String userIndex( Model modle) {
+		List<SysUser> userList  =sysUserService.selectList(new EntityWrapper<SysUser>());
+		modle.addAttribute("userList", userList);
+		return "/user/userIndex";
+	}
 
 	// 跳转到用户管理页面
 	@RequestMapping(value = "userPage")

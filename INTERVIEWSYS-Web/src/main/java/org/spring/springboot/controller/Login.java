@@ -8,9 +8,4 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 public class Login {
-    //跳转到登录表单页面
-    @RequestMapping(value="/user/user")
-    public String loginUser() {
-        return "/user/user";
-    }
 }

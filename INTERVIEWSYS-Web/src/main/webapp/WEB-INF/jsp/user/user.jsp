@@ -26,7 +26,7 @@
 				<div class="layui-form-item">
 					<label class="layui-form-label">用户名</label>
 					<div class="layui-input-block">  
-						<input type="text" name="title"  autocomplete="off"  class="layui-input layui-disabled" value="admin"  >
+						<input type="text" name="nickname"  autocomplete="off"  class="layui-input layui-disabled" value="${user.nickname}"  >
 					</div>
 				</div>
 				<div class="layui-form-item">
@@ -42,9 +42,9 @@
 					</div>
 				</div>
 				<div class="layui-form-item">
-					<label class="layui-form-label">手机号码</label>
+					<label class="layui-form-label">email</label>
 					<div class="layui-input-block">
-						<input type="text" name="username"  autocomplete="off" class="layui-input" placeholder="输入手机号码">
+						<input type="text" name="username"  autocomplete="off" class="layui-input" placeholder="输入手机号码" value="${user.email}">
 					</div>
 				</div>
 				<div class="layui-form-item">
