@@ -60,14 +60,18 @@
                               </tr>
                           </thead>
                           <tbody>
+                          <#list userList as user >
                               <tr>
                                 <td><input type="checkbox"></td>
-                                <td>110</td>
-                                <td>admin</td>
-                                <td>2016-12-19</td>
-                                <td>test</td>
-                                <td>test</td>
-                                <td>test</td>
+                                <td>${user.nickname}</td>
+                                <td>超级管理员</td>
+                                <td>${user.createTime?string('yyyy-MM-dd hh:mm:ss')} </td>
+                                <td>${user.lastLoginTime?string('yyyy-MM-dd hh:mm:ss')}</td>
+                                <#if user.status == "1">
+                                <td>有效</td>
+                                <#else>
+                                <td>禁止登陆</td>
+                                </#if>
                                 <td>
                                  <button class="layui-btn layui-btn-primary layui-btn-sm">
                                     <i class="layui-icon">&#xe642;</i>
@@ -77,6 +81,7 @@
                                   </button>
                                       </td>
                               </tr>
+                              </#list>
                           </tbody>
                      </table>
                      <div class="larry-table-page clearfix">
