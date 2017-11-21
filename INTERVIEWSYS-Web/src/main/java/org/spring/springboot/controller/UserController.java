@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.mapper.Wrapper;
 import com.baomidou.mybatisplus.plugins.Page;
+import com.baomidou.mybatisplus.plugins.pagination.Pagination;
 import org.apache.shiro.SecurityUtils;
 import org.spring.springboot.CustomPage;
 import org.spring.springboot.FrontPage;
@@ -48,9 +49,20 @@ public class UserController {
 
 	//跳转到用户管理
 	@RequestMapping(value="/index")
-	public String userIndex( Model modle) {
-		List<SysUser> userList  =sysUserService.selectList(new EntityWrapper<SysUser>());
-		modle.addAttribute("userList", userList);
+	public String userIndex( Model modle,String page) {
+		int current =1;
+		int size = 10;
+		if(page!=null){
+			current=Integer.parseInt(page);
+		}
+		Page pages = new Page<SysUser>(current,size);
+		Wrapper<SysUser> wrapper = new EntityWrapper<SysUser>();
+		Page<SysUser> pageList = sysUserService.selectPage(pages, wrapper);
+		List list =pageList.getRecords();
+		pageList.setTotal(sysUserService.selectList(wrapper).size());
+		Map  map =pageList.getCondition();
+		modle.addAttribute("userList", list);
+		modle.addAttribute("page", pageList);
 		return "/user/userIndex";
 	}
 

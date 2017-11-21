@@ -13,4 +13,9 @@
 		<result column="last_update_time" property="lastUpdateTime" />
 		<result column="create_time" property="createTime" />
 	</resultMap>
+	<sql id="Base_Column_List">
+		id, nickname, email, last_login_time,status,last_update_time,create_time
+	</sql>
+
+
 </mapper>

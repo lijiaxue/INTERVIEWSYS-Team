@@ -14,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="${contextPath}/common/bootstrap/css/bootstrap.css" media="all">
 	<link rel="stylesheet" type="text/css" href="${contextPath}/common/global.css" media="all">
 	<link rel="stylesheet" type="text/css" href="${contextPath}/css/personal.css" media="all">
+	<script src="${contextPath}/js/jquery-1.8.3.js"></script>
 </head>
 <body>
 <section class="layui-larry-box">
@@ -60,13 +61,15 @@
                               </tr>
                           </thead>
                           <tbody>
+                          <#escape x as x!"">
                           <#list userList as user >
                               <tr>
                                 <td><input type="checkbox"></td>
                                 <td>${user.nickname}</td>
                                 <td>超级管理员</td>
-                                <td>${user.createTime?string('yyyy-MM-dd hh:mm:ss')} </td>
-                                <td>${user.lastLoginTime?string('yyyy-MM-dd hh:mm:ss')}</td>
+                                <td>${user.email}</td>
+                                <td>${(user.createTime?string('yyyy-MM-dd hh:mm:ss'))!}</td>
+                                <td>${(user.lastLoginTime?string('yyyy-MM-dd hh:mm:ss'))!}</td>
                                 <#if user.status == "1">
                                 <td>有效</td>
                                 <#else>
@@ -82,45 +85,14 @@
                                       </td>
                               </tr>
                               </#list>
+                              </#escape>
                           </tbody>
                      </table>
                      <div class="larry-table-page clearfix">
-                          <a href="javascript:;" class="layui-btn layui-btn-small"><i class="iconfont icon-shanchu1"></i>删除</a>
 				          <div id="page" class="page"></div>
+
 			         </div>
 			    </div>
-			     <!-- 登录日志 -->
-			    <div class="layui-tab-item layui-field-box">
-			          <table class="layui-table table-hover" lay-even="" lay-skin="nob">
-                           <thead>
-                              <tr>
-                                  <th><input type="checkbox" id="selected-all"></th>
-                                  <th>ID</th>
-                                  <th>管理员账号</th>
-                                  <th>状态</th>
-                                  <th>最后登录时间</th>
-                                  <th>上次登录IP</th>
-                                  <th>登录IP</th>
-                                  <th>IP所在位置</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td><input type="checkbox"></td>
-                                <td>110</td>
-                                <td>admin</td>
-                                <td>后台登录成功</td>
-                                <td>2016-12-19 14:26:03</td>
-                                <td>127.0.0.1</td>
-                                <td>127.0.0.1</td>
-                                <td>Unknown</td>
-                              </tr>
-                            </tbody>
-			          </table>
-			          <div class="larry-table-page clearfix">
-                          <a href="javascript:;" class="layui-btn layui-btn-small"><i class="iconfont icon-shanchu1"></i>删除</a>
-				          <div id="page2" class="page"></div>
-			         </div>
 			    </div>
 		    </div>
 		</div>
@@ -133,34 +105,27 @@
 	      window.layer = layui.layer;
           var element = layui.element(),
               laypage = layui.laypage;
-
-            
+         startAllAppoint = 1;//开始页数
+         limitAllAppoint = ${page.size};//每页显示数据条数
+         currentPageAllAppoint = ${page.current};//当前页数
+         dataLength = ${page.total};//数据总条数
+         totalPage = dataLength % limitAllAppoint == 0 ? dataLength / limitAllAppoint : Math.ceil(dataLength / limitAllAppoint)
+         page =Math.ceil(dataLength/10);
+         if(page>5){
+            page=5;
+         }
           laypage({
 					cont: 'page',
-					pages: 10 //总页数
+					count:dataLength,
+					groups:page,
+					pages: totalPage //总页数
 						,
-					groups: 5 //连续显示分页数
-						,
+					curr: currentPageAllAppoint,
 					jump: function(obj, first) {
 						//得到了当前页，用于向服务端请求对应数据
-						var curr = obj.curr;
 						if(!first) {
 							//layer.msg('第 '+ obj.curr +' 页');
-						}
-					}
-				});
-
-          laypage({
-					cont: 'page2',
-					pages: 10 //总页数
-						,
-					groups: 5 //连续显示分页数
-						,
-					jump: function(obj, first) {
-						//得到了当前页，用于向服务端请求对应数据
-						var curr = obj.curr;
-						if(!first) {
-							//layer.msg('第 '+ obj.curr +' 页');
+                                location.href="${contextPath}/user/index?page="+obj.curr;
 						}
 					}
 				});

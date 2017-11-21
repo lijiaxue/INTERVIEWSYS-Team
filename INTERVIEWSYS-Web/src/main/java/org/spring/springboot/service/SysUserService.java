@@ -33,6 +33,7 @@ public class SysUserService extends ServiceImpl<SysUserDao, SysUser> {
     @Autowired
     SessionManager sessionManager;
 
+
     //获取在线session的page对象
     public Page<UserOnlineBo> getPagePlus(FrontPage<UserOnlineBo> frontPage) {
         // 因为我们是用redis实现了shiro的session的Dao,而且是采用了shiro+redis这个插件
