@@ -1,6 +1,5 @@
 package org.spring.springboot.config.redis;
 
-import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cache.annotation.CachingConfigurerSupport;
 import org.springframework.cache.annotation.EnableCaching;
@@ -36,8 +35,8 @@ public class RedisCacheConfig extends CachingConfigurerSupport {
 
     @Bean
     public JedisPool redisPoolFactory() {
-        Logger.getLogger(getClass()).info("JedisPool注入成功！！");
-        Logger.getLogger(getClass()).info("redis地址：" + host + ":" + port);
+        System.out.println("JedisPool注入成功！！");
+        System.out.println("redis地址：" + host + ":" + port);
         JedisPoolConfig jedisPoolConfig = new JedisPoolConfig();
         jedisPoolConfig.setMaxTotal(active);
         jedisPoolConfig.setMaxIdle(maxIdle);

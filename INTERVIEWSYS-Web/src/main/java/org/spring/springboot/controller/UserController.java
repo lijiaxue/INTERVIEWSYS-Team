@@ -18,6 +18,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -35,7 +37,7 @@ import java.util.Map;
 @Controller
 @RequestMapping(value = "user")
 public class UserController {
-
+	private static final Logger log = LogManager.getLogger(UserController.class);
 	@Autowired
 	SysUserService sysUserService;
 
@@ -60,7 +62,6 @@ public class UserController {
 		Page<SysUser> pageList = sysUserService.selectPage(pages, wrapper);
 		List list =pageList.getRecords();
 		pageList.setTotal(sysUserService.selectList(wrapper).size());
-		Map  map =pageList.getCondition();
 		modle.addAttribute("userList", list);
 		modle.addAttribute("page", pageList);
 		return "/user/userIndex";
@@ -73,7 +74,6 @@ public class UserController {
 		modle.addAttribute("edit", edit);
 		return "user/user";
 	}
-
 
 	// 跳轉到編輯頁面edit
 	@RequestMapping(value = "editPage/{Id}")

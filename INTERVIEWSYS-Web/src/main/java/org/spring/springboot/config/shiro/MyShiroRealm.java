@@ -1,6 +1,6 @@
 package org.spring.springboot.config.shiro;
 
-import org.apache.log4j.Logger;
+
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
@@ -108,7 +108,7 @@ public class MyShiroRealm extends AuthorizingRealm {
             //清空登录计数
             opsForValue.set(SHIRO_LOGIN_COUNT+name, "0");
         }
-        Logger.getLogger(getClass()).info("身份认证成功，登录用户："+name);
+        System.out.println("身份认证成功，登录用户："+name);
         return new SimpleAuthenticationInfo(user, user.getPswd(), getName());
     }
 }
