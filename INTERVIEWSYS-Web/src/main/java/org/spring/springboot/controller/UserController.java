@@ -6,12 +6,14 @@ import com.baomidou.mybatisplus.mapper.Wrapper;
 import com.baomidou.mybatisplus.plugins.Page;
 import com.baomidou.mybatisplus.plugins.pagination.Pagination;
 import org.apache.shiro.SecurityUtils;
+import org.spring.springboot.BaseController.BaseController;
 import org.spring.springboot.CustomPage;
 import org.spring.springboot.FrontPage;
 import org.spring.springboot.domain.SysUser;
 import org.spring.springboot.domain.UserOnlineBo;
 import org.spring.springboot.service.SysUserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -21,6 +23,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import javax.servlet.http.HttpServletRequest;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -36,7 +39,7 @@ import java.util.Map;
  */
 @Controller
 @RequestMapping(value = "user")
-public class UserController {
+public class UserController extends BaseController {
 	private static final Logger log = LogManager.getLogger(UserController.class);
 	@Autowired
 	SysUserService sysUserService;
@@ -51,14 +54,21 @@ public class UserController {
 
 	//跳转到用户管理
 	@RequestMapping(value="/index")
-	public String userIndex( Model modle,String page) {
+	public String userIndex(Model modle, String page,HttpServletRequest request) {
+		Wrapper<SysUser> wrapper = new EntityWrapper<SysUser>();
 		int current =1;
 		int size = 10;
+		Map<String,String> map = super.getParam(request,new String[]{"nikname","email"});
+		if(map.size()>0){
+			modle.addAttribute("map", map);
+			sysUserService.getWrapper(wrapper,map);
+		}
+
 		if(page!=null){
 			current=Integer.parseInt(page);
 		}
 		Page pages = new Page<SysUser>(current,size);
-		Wrapper<SysUser> wrapper = new EntityWrapper<SysUser>();
+
 		Page<SysUser> pageList = sysUserService.selectPage(pages, wrapper);
 		List list =pageList.getRecords();
 		pageList.setTotal(sysUserService.selectList(wrapper).size());

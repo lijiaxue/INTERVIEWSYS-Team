@@ -1,5 +1,6 @@
 package org.spring.springboot.service;
 
+import com.baomidou.mybatisplus.mapper.Wrapper;
 import com.baomidou.mybatisplus.plugins.Page;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import org.apache.shiro.session.Session;
@@ -16,10 +17,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by dell on 2017/11/10.
@@ -33,7 +31,16 @@ public class SysUserService extends ServiceImpl<SysUserDao, SysUser> {
     @Autowired
     SessionManager sessionManager;
 
+    public void getWrapper(Wrapper wrapper, Map<String,String> map){
+        if(map.containsKey("nikname") && map.get("nikname")!=null  && !map.get("nikname").equals("")){
 
+            wrapper.like("nickname",map.get("nikname"));
+        }
+        if(map.containsKey("email") && map.get("email")!=null && !map.get("email").equals("")){
+
+            wrapper.eq("email",map.get("email"));
+        }
+    }
     //获取在线session的page对象
     public Page<UserOnlineBo> getPagePlus(FrontPage<UserOnlineBo> frontPage) {
         // 因为我们是用redis实现了shiro的session的Dao,而且是采用了shiro+redis这个插件

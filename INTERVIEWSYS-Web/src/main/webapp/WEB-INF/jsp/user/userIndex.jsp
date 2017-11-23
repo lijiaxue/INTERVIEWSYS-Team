@@ -21,27 +21,23 @@
 	<div class="larry-personal">
 	    <div class="layui-tab">
             <blockquote class="layui-elem-quote news_search">
-		
-		<div class="layui-inline">
-		    <div class="layui-input-inline">
-		    	<input value="" placeholder="请输入关键字" class="layui-input search_input" type="text">
-		    </div>
-		    <a class="layui-btn search_btn">查询</a>
-		</div><div class="layui-inline">
-			<a class="layui-btn layui-btn-normal newsAdd_btn">添加文章</a>
-		</div>
-		<div class="layui-inline">
-			<a class="layui-btn recommend" style="background-color:#5FB878">推荐文章</a>
-		</div>
-		<div class="layui-inline">
-			<a class="layui-btn audit_btn">审核文章</a>
-		</div>
+                <form class="layui-form" action="${contextPath}/user/index" >
+                <div class="layui-form-item">
+                <div class="layui-input-inline">
+                    <input type="text" value="${map.nikname!}" name="nikname" lay-verify="required" placeholder="用户名" autocomplete="off" class="layui-input">
+                </div>
+                <div class="layui-input-inline">
+                    <input type="text" value="${map.email!}" name="email" lay-verify="required" placeholder="email" autocomplete="off" class="layui-input">
+                </div>
+                     <button class="layui-btn" id="aa" lay-submit="" lay-filter="demo1">搜索</button>
+                </div>
+                </form>
+                </blockquote>
 		<div class="layui-inline">
 			<a class="layui-btn layui-btn-danger batchDel">批量删除</a>
 		</div>
-		<div class="layui-inline">
-			<div class="layui-form-mid layui-word-aux">本页面刷新后除新添加的文章外所有操作无效，关闭页面所有数据重置</div>
 		</div>
+
 	</blockquote>
             
 		    <div class="layui-tab-content larry-personal-body clearfix mylog-info-box">
@@ -99,8 +95,10 @@
 	</div>
 </section>
 <script type="text/javascript" src="${contextPath}/common/layui/layui.js"></script>
+<script type="text/javascript" src="${contextPath}/js/commonButton.js"></script>
 <script type="text/javascript">
 	layui.use(['jquery','layer','element','laypage'],function(){
+	      var arr =  $('.layui-form').serialize();
 	      window.jQuery = window.$ = layui.jquery;
 	      window.layer = layui.layer;
           var element = layui.element(),
@@ -118,14 +116,14 @@
 					cont: 'page',
 					count:dataLength,
 					groups:page,
+					skip: true, //开启跳页
 					pages: totalPage //总页数
 						,
 					curr: currentPageAllAppoint,
 					jump: function(obj, first) {
 						//得到了当前页，用于向服务端请求对应数据
 						if(!first) {
-							//layer.msg('第 '+ obj.curr +' 页');
-                                location.href="${contextPath}/user/index?page="+obj.curr;
+                                location.href="${contextPath}/user/index?page="+obj.curr+"&"+arr;
 						}
 					}
 				});
