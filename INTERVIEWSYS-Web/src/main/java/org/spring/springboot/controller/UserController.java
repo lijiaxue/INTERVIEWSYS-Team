@@ -1,6 +1,8 @@
 package org.spring.springboot.controller;
 
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.mapper.Wrapper;
 import com.baomidou.mybatisplus.plugins.Page;
@@ -96,48 +98,21 @@ public class UserController extends BaseController {
 		return "user/edit";
 	}
 
-	// 增加和修改
-	@RequestMapping(value = "edit")
-	public String edit(SysUser user,String isEffective, Model model) {
-		if(isEffective==null||isEffective==""){
-			user.setStatus("0");
-		}else{
-			user.setStatus("1");
-		}
-		if (sysUserService.insertOrUpdate(user)) {
-			return "forward:userPage?edit=true";
-		} else {
-			return "forward:userPage?edit=false";
-		}
-	}
-
-	// 用户列表分页json
-	@RequestMapping(value = "getUserListWithPager")
-	@ResponseBody
-	public String getUserListWithPager(FrontPage<SysUser> page) {
-		Wrapper<SysUser> wrapper = new EntityWrapper<SysUser>();
-		String keyWords = page.getKeywords();
-		if (keyWords != null && keyWords != "")
-			wrapper.like("nickname", keyWords);
-		Page<SysUser> pageList = sysUserService.selectPage(page.getPagePlus(), wrapper);
-		CustomPage<SysUser> customPage = new CustomPage<SysUser>(pageList);
-		return JSON.toJSONString(customPage);
-	}
-
 	// 刪除用户
-	@RequestMapping(value = "delete")
+	@RequestMapping(value = "delete/{Id}")
 	@ResponseBody
-	public String delete(@RequestParam(value = "ids[]") String[] ids) {
-		Map<String, Object> resultMap = new HashMap<String, Object>();
-		try {
-			sysUserService.deleteBatchIds(Arrays.asList(ids));
-			resultMap.put("flag", true);
-			resultMap.put("msg", "刪除成功！");
-		} catch (Exception e) {
-			resultMap.put("flag", false);
-			resultMap.put("msg", e.getMessage());
+	public String delete(@PathVariable("Id") Long Id) {
+		Map map=new HashMap();
+		String result;
+		Boolean del=sysUserService.deleteById(Id);
+		if(del){
+			map.put("status","1");
+		}else{
+			map.put("status","0");
 		}
-		return JSON.toJSONString(resultMap);
+		JSONObject object = new JSONObject(map);
+		result= object.toString();
+		return result;
 	}
 
 	// 跳转到在线用户管理页面

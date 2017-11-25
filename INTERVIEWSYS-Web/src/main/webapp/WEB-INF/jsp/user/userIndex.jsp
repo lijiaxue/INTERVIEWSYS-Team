@@ -75,7 +75,7 @@
                                  <button class="layui-btn layui-btn-primary layui-btn-sm">
                                     <i class="layui-icon">&#xe642;</i>
                                   </button>
-                                  <button class="layui-btn layui-btn-primary layui-btn-sm">
+                                  <button class="layui-btn layui-btn-primary layui-btn-sm"  onclick="_delete('${contextPath}/user/delete/${user.id}')">
                                     <i class="layui-icon">&#xe640;</i>
                                   </button>
                                       </td>
@@ -95,8 +95,17 @@
 	</div>
 </section>
 <script type="text/javascript" src="${contextPath}/common/layui/layui.js"></script>
-<script type="text/javascript" src="${contextPath}/js/commonButton.js"></script>
+<script type="text/javascript" src="${contextPath}/js/index/common.js"></script>
 <script type="text/javascript">
+    function editSingle(){
+        layer.open({
+            type: 2,
+            title: '编辑',
+            area : ['800px' , '620px'],
+            scrollbar: false,//禁止浏览器滚动
+            content: '${contextPath}/user/user'
+            });
+    }
 	layui.use(['jquery','layer','element','laypage'],function(){
 	      var arr =  $('.layui-form').serialize();
 	      window.jQuery = window.$ = layui.jquery;
