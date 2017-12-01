@@ -1,52 +1,98 @@
-/*
-* @Author: Larry
-* @Date:   2016-12-15 17:20:54
-* @Last Modified by:   qinsh
-* @Last Modified time: 2016-12-24 21:51:08
-* +----------------------------------------------------------------------
-* | LarryBlogCMS [ LarryCMS网站内容管理系统 ]
-* | Copyright (c) 2016-2017 http://www.larrycms.com All rights reserved.
-* | Licensed ( http://www.larrycms.com/licenses/ )
-* | Author: qinshouwei <313492783@qq.com>
-* +----------------------------------------------------------------------
-*/
-var myChart = echarts.init(document.getElementById('larry-seo-stats'));
-option = {
-    title : {
-        text: '用户访问来源',
-        subtext: '纯属虚构',
-        x:'center'
-    },
-    tooltip : {
-        trigger: 'item',
-        formatter: "{a} <br/>{b} : {c} ({d}%)"
-    },
-    legend: {
-        orient: 'vertical',
-        left: 'left',
-        data: ['直接访问','邮件营销','联盟广告','视频广告','搜索引擎']
-    },
-    series : [
-        {
-            name: '访问来源',
-            type: 'pie',
-            radius : '55%',
-            center: ['50%', '60%'],
-            data:[
-                {value:335, name:'直接访问'},
-                {value:310, name:'邮件营销'},
-                {value:234, name:'联盟广告'},
-                {value:135, name:'视频广告'},
-                {value:1548, name:'搜索引擎'}
-            ],
-            itemStyle: {
-                emphasis: {
-                    shadowBlur: 10,
-                    shadowOffsetX: 0,
-                    shadowColor: 'rgba(0, 0, 0, 0.5)'
-                }
-            }
-        }
-    ]
-};
-myChart.setOption(option);
+layui.config({
+	base : "js/"
+}).use(['form','element','layer','jquery'],function(){
+	var form = layui.form(),
+		layer = parent.layer === undefined ? layui.layer : parent.layer,
+		element = layui.element(),
+		$ = layui.jquery;
+
+	$(".panel a").on("click",function(){
+		window.parent.addTab($(this));
+	})
+
+	//动态获取文章总数和待审核文章数量,最新文章
+	$.get("../json/newsList.json",
+		function(data){
+			var waitNews = [];
+			$(".allNews span").text(data.length);  //文章总数
+			for(var i=0;i<data.length;i++){
+				var newsStr = data[i];
+				if(newsStr["newsStatus"] == "待审核"){
+					waitNews.push(newsStr);
+				}
+			}
+			$(".waitNews span").text(waitNews.length);  //待审核文章
+			//加载最新文章
+			var hotNewsHtml = '';
+			for(var i=0;i<5;i++){
+				hotNewsHtml += '<tr>'
+		    	+'<td align="left">'+data[i].newsName+'</td>'
+		    	+'<td>'+data[i].newsTime+'</td>'
+		    	+'</tr>';
+			}
+			$(".hot_news").html(hotNewsHtml);
+		}
+	)
+
+	//图片总数
+	$.get("../json/images.json",
+		function(data){
+			$(".imgAll span").text(data.length);
+		}
+	)
+
+	//用户数
+	$.get("../json/usersList.json",
+		function(data){
+			$(".userAll span").text(data.length);
+		}
+	)
+
+	//新消息
+	$.get("../json/message.json",
+		function(data){
+			$(".newMessage span").text(data.length);
+		}
+	)
+
+
+	//数字格式化
+	$(".panel span").each(function(){
+		$(this).html($(this).text()>9999 ? ($(this).text()/10000).toFixed(2) + "<em>万</em>" : $(this).text());	
+	})
+
+	//系统基本参数
+	if(window.sessionStorage.getItem("systemParameter")){
+		var systemParameter = JSON.parse(window.sessionStorage.getItem("systemParameter"));
+		fillParameter(systemParameter);
+	}else{
+		$.ajax({
+			url : "../json/systemParameter.json",
+			type : "get",
+			dataType : "json",
+			success : function(data){
+				fillParameter(data);
+			}
+		})
+	}
+
+	//填充数据方法
+ 	function fillParameter(data){
+ 		//判断字段数据是否存在
+ 		function nullData(data){
+ 			if(data == '' || data == "undefined"){
+ 				return "未定义";
+ 			}else{
+ 				return data;
+ 			}
+ 		}
+ 		$(".version").text(nullData(data.version));      //当前版本
+		$(".author").text(nullData(data.author));        //开发作者
+		$(".homePage").text(nullData(data.homePage));    //网站首页
+		$(".server").text(nullData(data.server));        //服务器环境
+		$(".dataBase").text(nullData(data.dataBase));    //数据库版本
+		$(".maxUpload").text(nullData(data.maxUpload));    //最大上传限制
+		$(".userRights").text(nullData(data.userRights));//当前用户权限
+ 	}
+
+})

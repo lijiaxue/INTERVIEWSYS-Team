@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<#assign contextPath = request.contextPath />
+<head>
+	<meta charset="UTF-8">
+	<title>个人信息</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" type="text/css" href="${contextPath}/common/layui/css/layui.css" media="all">
+	<link rel="stylesheet" type="text/css" href="${contextPath}/common/bootstrap/css/bootstrap.css" media="all">
+	<link rel="stylesheet" type="text/css" href="${contextPath}/common/global.css" media="all">
+	<link rel="stylesheet" type="text/css" href="${contextPath}/css/personal.css" media="all">
+</head>
+<body>
+<section class="layui-larry-box">
+	<div class="larry-personal">
+		<header class="larry-personal-tit">
+			<span>角色信息</span>
+		</header><!-- /header -->
+		<div class="larry-personal-body clearfix">
+			<form class="layui-form" action="${contextPath}/user/role/save" method="post">
+                      <div class="layui-form-item">
+                        <label class="layui-form-label">角色名</label>
+                        <div class="layui-input-block">
+                          <input type="text" name="name" lay-verify="name" autocomplete="off" placeholder="请输入角色" class="layui-input">
+                        </div>
+                      </div>
+                      <div class="layui-form-item">
+                        <label class="layui-form-label">角色类型</label>
+                        <div class="layui-input-block">
+                          <input type="text" name="type" lay-verify="type" autocomplete="off" placeholder="请输入类型" class="layui-input">
+                        </div>
+                      </div>
+				     <div class="layui-form-item">
+                    <div class="layui-input-block">
+                      <button class="layui-btn" lay-submit lay-filter="subRole">立即提交</button>
+                      <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                    </div>
+                  </div>
+			</form>
+		</div>
+	</div>
+</section>
+<script type="text/javascript" src="${contextPath}/common/layui/layui.js"></script>
+<script src="${contextPath}/js/jquery-1.8.3.js"></script>
+<script>
+layui.use(['form', 'layedit', 'laydate'], function(){
+        var form = layui.form();
+        form.on('submit(subRole)', function(data){
+        $.post('${contextPath}/user/role/save',data.field,function(res){
+                  if(res.status==1){
+                       layer.msg("保存成功");
+                       setTimout(location.reload(),200);
+                       location.href="${contextPath}/user/role/roleIndex";
+                  }else{
+                       layer.msg("保存失败");
+                  }
+        });
+        return false;
+        });
+
+
+});
+</script>
+</body>
+</html>
