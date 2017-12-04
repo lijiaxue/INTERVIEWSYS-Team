@@ -33,7 +33,7 @@ import java.util.*;
 
 /*
 AccessControlFilter:提供额外的方法
-        void setLoginUrl(String loginUrl) //身份验证时使用，默认/login.jsp
+        void setLoginUrl(String loginUrl) //身份验证时使用，默认/login.html
         String getLoginUrl()
         Subject getSubject(ServletRequest request, ServletResponse response) //获取Subject实例
         boolean isLoginRequest(ServletRequest request, ServletResponse response)//当前请求是否是登录请求

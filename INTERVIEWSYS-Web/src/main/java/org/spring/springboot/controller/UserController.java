@@ -65,12 +65,10 @@ public class UserController extends BaseController {
 			modle.addAttribute("map", map);
 			sysUserService.getWrapper(wrapper,map);
 		}
-
 		if(page!=null){
 			current=Integer.parseInt(page);
 		}
 		Page pages = new Page<SysUser>(current,size);
-
 		Page<SysUser> pageList = sysUserService.selectPage(pages, wrapper);
 		List list =pageList.getRecords();
 		pageList.setTotal(sysUserService.selectList(wrapper).size());

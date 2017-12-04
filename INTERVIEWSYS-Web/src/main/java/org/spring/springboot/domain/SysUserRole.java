@@ -11,7 +11,6 @@ import java.io.Serializable;
 @TableName("u_user_role")
 public class SysUserRole extends Model<SysUserRole>{
     private static final long serialVersionUID = 1L;
-    private Long id;
     /**
      * 用户id
      */
@@ -21,14 +20,6 @@ public class SysUserRole extends Model<SysUserRole>{
      * 角色id
      */
     private String rid;
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public String getUid() {
         return uid;
@@ -48,6 +39,6 @@ public class SysUserRole extends Model<SysUserRole>{
 
     @Override
     protected Serializable pkVal() {
-        return this.id;
+        return null;
     }
 }

@@ -22,19 +22,27 @@
 			<span>角色信息</span>
 		</header><!-- /header -->
 		<div class="larry-personal-body clearfix">
-			<form class="layui-form" action="${contextPath}/user/role/save" method="post">
+			<form class="layui-form">
+
                       <div class="layui-form-item">
                         <label class="layui-form-label">角色名</label>
                         <div class="layui-input-block">
-                          <input type="text" name="name" lay-verify="name" autocomplete="off" placeholder="请输入角色" class="layui-input">
+							<input type="text" name="name" lay-verify="name" value = "${role.name!}" autocomplete="off" placeholder="请输入角色" class="layui-input" />
                         </div>
                       </div>
                       <div class="layui-form-item">
                         <label class="layui-form-label">角色类型</label>
                         <div class="layui-input-block">
-                          <input type="text" name="type" lay-verify="type" autocomplete="off" placeholder="请输入类型" class="layui-input">
-                        </div>
+							<input type="text" name="type" lay-verify="type" value = "${role.type!}" autocomplete="off" placeholder="请输入角色" class="layui-input" />
+						</div>
                       </div>
+					<div class="layui-form-item">
+						<label class="layui-form-label">角色描述</label>
+						<div class="layui-input-block">
+							<input type="text" name="description" lay-verify="description" value = "${role.description!}" autocomplete="off" placeholder="请输入角色" class="layui-input" />
+						</div>
+					</div>
+
 				     <div class="layui-form-item">
                     <div class="layui-input-block">
                       <button class="layui-btn" lay-submit lay-filter="subRole">立即提交</button>
@@ -48,17 +56,18 @@
 <script type="text/javascript" src="${contextPath}/common/layui/layui.js"></script>
 <script src="${contextPath}/js/jquery-1.8.3.js"></script>
 <script>
-layui.use(['form', 'layedit', 'laydate'], function(){
+layui.use(['form','jquery', 'layedit', 'laydate'], function(){
         var form = layui.form();
         form.on('submit(subRole)', function(data){
         $.post('${contextPath}/user/role/save',data.field,function(res){
-                  if(res.status==1){
+                  if(res==1){
                        layer.msg("保存成功");
-                       setTimout(location.reload(),200);
-                       location.href="${contextPath}/user/role/roleIndex";
+
                   }else{
                        layer.msg("保存失败");
                   }
+                  setTimeout(function(){parent.layer.closeAll('iframe');},1500);
+
         });
         return false;
         });

@@ -2,123 +2,123 @@
 <html lang="en">
 <#assign contextPath = request.contextPath />
 <head>
-	<meta charset="UTF-8">
-	<title>个人信息</title>
-	<meta name="renderer" content="webkit">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" type="text/css" href="${contextPath}/common/layui/css/layui.css" media="all">
-	<link rel="stylesheet" type="text/css" href="${contextPath}/common/bootstrap/css/bootstrap.css" media="all">
-	<link rel="stylesheet" type="text/css" href="${contextPath}/common/global.css" media="all">
-	<link rel="stylesheet" type="text/css" href="${contextPath}/css/personal.css" media="all">
-	<script src="${contextPath}/js/jquery-1.8.3.js"></script>
+    <meta charset="UTF-8">
+    <title>个人信息</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" type="text/css" href="${contextPath}/common/layui/css/layui.css" media="all">
+    <link rel="stylesheet" type="text/css" href="${contextPath}/common/bootstrap/css/bootstrap.css" media="all">
+    <link rel="stylesheet" type="text/css" href="${contextPath}/common/global.css" media="all">
+    <link rel="stylesheet" type="text/css" href="${contextPath}/css/personal.css" media="all">
+    <script src="${contextPath}/js/jquery-1.8.3.js"></script>
 </head>
 <body>
 <section class="layui-larry-box">
-	<div class="larry-personal">
-	    <div class="layui-tab">
+    <div class="larry-personal">
+        <div class="layui-tab">
             <blockquote class="layui-elem-quote news_search">
-                <form class="layui-form" action="${contextPath}/user/index" >
-                <div class="layui-form-item">
-                <div class="layui-input-inline">
-                    <input type="text" value="" name="nikname" lay-verify="required" placeholder="用户名" autocomplete="off" class="layui-input">
-                </div>
-                <div class="layui-input-inline">
-                    <input type="text" value="" name="email" lay-verify="required" placeholder="email" autocomplete="off" class="layui-input">
-                </div>
-                     <button class="layui-btn" id="aa" lay-submit="" lay-filter="demo1">搜索</button>
-                </div>
+                <form class="layui-form" action="${contextPath}/user/role/roleIndex" >
+                    <div class="layui-form-item">
+                        <div class="layui-input-inline">
+                            <input type="text" value="" name="nikname" lay-verify="required" placeholder="用户名" autocomplete="off" class="layui-input">
+                        </div>
+                        <div class="layui-input-inline">
+                            <input type="text" value="" name="email" lay-verify="required" placeholder="email" autocomplete="off" class="layui-input">
+                        </div>
+                        <button class="layui-btn" id="aa" lay-submit="" lay-filter="demo1">搜索</button>
+                    </div>
                 </form>
-                </blockquote>
-		<div class="layui-inline">
-			<a class="layui-btn " onclick="edit('${contextPath}/user/role/editRole/123')">新增</a>
-			<a class="layui-btn layui-btn-danger batchDel">批量删除</a>
-		</div>
-		</div>
+            </blockquote>
+            <div class="layui-inline">
+                <a class="layui-btn " onclick="edit('${contextPath}/user/role/editRole/add')">新增</a>
+                <a class="layui-btn layui-btn-danger batchDel" onclick="bathDel('${contextPath}/user/role/batDel')">批量删除</a>
+            </div>
+        </div>
 
-	</blockquote>
+        </blockquote>
 
-		    <div class="layui-tab-content larry-personal-body clearfix mylog-info-box">
-		         <!-- 人员操作 -->
-                <div class="layui-tab-item layui-field-box layui-show">
-                     <table class="layui-table table-hover" lay-even="" lay-skin="nob">
-                          <thead>
-                              <tr>
-                                  <th><input type="checkbox" id="selected-all"></th>
-                                  <th>角色名称</th>
-                                  <th>角色类型</th>
-                                  <th>操作</th>
-                              </tr>
-                          </thead>
-                          <tbody>
-                          <#escape x as x!"">
-                          <#list Rolelist as role >
-                              <tr>
-                                <td><input type="checkbox"></td>
+        <div class="layui-tab-content larry-personal-body clearfix mylog-info-box">
+            <!-- 人员操作 -->
+            <div class="layui-tab-item layui-field-box layui-show">
+                <table class="layui-table table-hover" lay-even="" lay-skin="nob">
+                    <thead>
+                    <tr>
+                        <th><input type="checkbox" id="selected-all" ></th>
+                        <th>角色名称</th>
+                        <th>角色类型</th>
+                        <th>角色描述</th>
+                        <th>操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <#escape x as x!"">
+                        <#list Rolelist as role >
+                            <tr>
+                                <td><input type="checkbox" value="${role.id}" name ="ckb"></td>
                                 <td>${role.name}</td>
                                 <td>${role.type}</td>
+                                <td>${role.description}</td>
                                 <td>
-                                 <button class="layui-btn layui-btn-primary layui-btn-sm" >
-                                    <i class="layui-icon">&#xe642;</i>
-                                  </button>
-                                  <button class="layui-btn layui-btn-primary layui-btn-sm"  onclick="_delete('${contextPath}/user/role/delete/${role.id}')">
-                                    <i class="layui-icon">&#xe640;</i>
-                                  </button>
-                                      </td>
-                              </tr>
-                              </#list>
-                              </#escape>
-                          </tbody>
-                     </table>
-                     <div class="larry-table-page clearfix">
-				          <div id="page" class="page"></div>
-
-			         </div>
-			    </div>
-			    </div>
-		    </div>
-		</div>
-	</div>
+                                    <button class="layui-btn layui-btn-primary layui-btn-sm" onclick="edit('${contextPath}/user/role/editRole/${role.id}')" >
+                                        <i class="layui-icon">&#xe642;</i>
+                                    </button>
+                                    <button class="layui-btn layui-btn-primary layui-btn-sm"  onclick="_delete('${contextPath}/user/role/delete/${role.id}')">
+                                        <i class="layui-icon">&#xe640;</i>
+                                    </button>
+                                </td>
+                            </tr>
+                        </#list>
+                    </#escape>
+                    </tbody>
+                </table>
+                <div class="larry-table-page clearfix">
+                    <div id="page" class="page"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <script type="text/javascript" src="${contextPath}/common/layui/layui.js"></script>
 <script type="text/javascript" src="${contextPath}/js/index/common.js"></script>
 <script type="text/javascript">
-
 	layui.use(['jquery','layer','element','laypage'],function(){
-	      var arr =  $('.layui-form').serialize();
+	     checkeds();
+		 var arr =  $('.layui-form').serialize();
+         var startAllAppoint = 1;//开始页数
+         var limitAllAppoint = ${page.size};//每页显示数据条数
+         var  currentPageAllAppoint = ${page.current};//当前页数
+         var dataLength = ${page.total};//数据总条数
+         var page =Math.ceil(dataLength/10);
 	      window.jQuery = window.$ = layui.jquery;
 	      window.layer = layui.layer;
           var element = layui.element(),
               laypage = layui.laypage;
-              alert(${page.size});
-         startAllAppoint = 1;//开始页数
-         limitAllAppoint = ${page.size};//每页显示数据条数
-         currentPageAllAppoint = ${page.current};//当前页数
-         dataLength = ${page.total};//数据总条数
-         totalPage = dataLength % limitAllAppoint == 0 ? dataLength / limitAllAppoint : Math.ceil(dataLength / limitAllAppoint)
-         page =Math.ceil(dataLength/10);
+
          if(page>5){
             page=5;
          }
+
           laypage({
 					cont: 'page',
-					count:dataLength,
-					groups:page,
-					skip: true, //开启跳页
-					pages: totalPage //总页数
+					count:${page.total},
+					pages:${totalPageNum}, //总页数
+					skip: true,
+					curr: ${page.current},
+					groups: page //连续显示分页数
 						,
-					curr: currentPageAllAppoint,
 					jump: function(obj, first) {
-						//得到了当前页，用于向服务端请求对应数据
 						if(!first) {
-                                location.href="${contextPath}/role/role?page="+obj.curr+"&"+arr;
+							location.href="${contextPath}/user/role/roleIndex?page="+obj.curr+"&"+arr;
 						}
 					}
 				});
+
     });
+
 </script>
 </body>
 </html>
